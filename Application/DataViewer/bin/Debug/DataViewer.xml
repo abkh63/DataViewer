@@ -1,0 +1,230 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DataViewer</name>
+    </assembly>
+    <members>
+        <member name="M:DataViewer.Fonctions.afficherDonnees(System.Collections.Generic.List{DataViewer.Data},System.Windows.Forms.ListView)">
+            <summary>
+            Afficher une liste d'ibjets de type Data dans une ListView
+            </summary>
+            <param name="result">Liste d'objets à afficher</param>
+            <param name="listView">Contrôle WinForm</param>
+        </member>
+        <member name="M:DataViewer.Fonctions.afficherTableHeures(System.Collections.Generic.List{DataViewer.Data},System.Windows.Forms.CheckedListBox)">
+            <summary>
+            Afficher la liste des Heures dans une CheckedListBox
+            </summary>
+            <param name="listData">Liste d'objets de type Data contenant les éléments à afficher</param>
+            <param name="clk">Contrôle WinForm</param>
+        </member>
+        <member name="M:DataViewer.Fonctions.afficherTableAnnees(System.Collections.Generic.List{DataViewer.Data},System.Windows.Forms.CheckedListBox)">
+            <summary>
+            Afficher la liste des Année dans une CheckedListBox
+            </summary>
+            <param name="listData">Liste d'objets de type Data contenant les éléments à afficher</param>
+            <param name="clk">Contrôle WinForm</param>
+        </member>
+        <member name="M:DataViewer.Fonctions.afficherTableMedia(System.Collections.Generic.List{DataViewer.Data},System.Windows.Forms.CheckedListBox)">
+            <summary>
+            Afficher la liste des Libellé Media dans une CheckedListBox
+            </summary>
+            <param name="listData">Liste d'objets de type Data contenant les éléments à afficher</param>
+            <param name="clk">Contrôle WinForm</param>
+        </member>
+        <member name="M:DataViewer.Fonctions.afficherTableType(System.Collections.Generic.List{DataViewer.Data},System.Windows.Forms.CheckedListBox)">
+            <summary>
+            Afficher la liste des Type Media dans une CheckedListBox
+            </summary>
+            <param name="listData">Liste d'objets de type Data contenant les éléments à afficher</param>
+            <param name="clk">Contrôle WinForm</param>
+        </member>
+        <member name="M:DataViewer.Fonctions.afficherTableCategorie(System.Collections.Generic.List{DataViewer.Data},System.Windows.Forms.CheckedListBox)">
+            <summary>
+            Afficher la liste des Categories Media dans une CheckedListBox
+            </summary>
+            <param name="listData">Liste d'objets de type Data contenant les éléments à afficher</param>
+            <param name="clk">Contrôle WinForm</param>
+        </member>
+        <member name="M:DataViewer.Fonctions.ckBoxToString(System.Windows.Forms.CheckedListBox,System.String)">
+            <summary>
+            Transformer les items (string) d'une CheckedLisBox sélectionnées en une chaines de caractère
+            </summary>
+            <param name="ckBox">Contrôle WinForm</param>
+            <param name="attribut">L'attribut à filtrer</param>
+            <returns>chaine de caractères</returns>
+        </member>
+        <member name="M:DataViewer.Fonctions.ckBoxToInt(System.Windows.Forms.CheckedListBox,System.String)">
+            <summary>
+            Transformer les items (int) d'une CheckedLisBox sélectionnées en une chaines de caractère
+            </summary>
+            <param name="ckBox">Contrôle WinForm</param>
+            <param name="attribut">L'attribut à filtrer</param>
+            <returns>Chaine de caractères</returns>
+        </member>
+        <member name="M:DataViewer.Fonctions.requeteParametree(System.Windows.Forms.CheckedListBox,System.Windows.Forms.CheckedListBox,System.Windows.Forms.CheckedListBox,System.Windows.Forms.CheckedListBox,System.Windows.Forms.CheckedListBox)">
+            <summary>
+            Construction d'une requete SQL paramétrée
+            </summary>
+            <param name="ck_box_media">Contrôle WinForm contenant les Media sélectionnée par l'utilisateur</param>
+            <param name="ck_box_annee">Contrôle WinForm contenant les années sélectionnée par l'utilisateur</param>
+            <param name="ck_box_heure">Contrôle WinForm contenant les heures sélectionnée par l'utilisateur</param>
+            <param name="ck_box_media_type">Contrôle WinForm contenant les Type Media sélectionnée par l'utilisateur</param>
+            <param name="ck_box_media_categorie">Contrôle WinForm contenant les Categories Media sélectionnée par l'utilisateur</param>
+            <returns>chaine de caractère : requête SQL pâramétrée</returns>
+        </member>
+        <member name="M:DataViewer.Fonctions.requeteVue(System.String)">
+            <summary>
+            construction de la requete de création de vue
+            </summary>
+            <param name="req">requetes SQL (Select) paramétrée</param>
+            <returns>chaine de caractère : requête SQL de création de vue</returns>
+        </member>
+        <member name="M:DataViewer.Data.#ctor(System.String,System.String,System.String,System.Int32,System.Int32,System.Single,System.String)">
+            <summary>
+            Constructeur de la Classe Data
+            </summary>
+            <param name="media"> Libellé du Media</param>
+            <param name="type"> Type du Media : radio ou tv</param>
+            <param name="cat"> Catégorie du Media : Privé ou publique</param>
+            <param name="annee"> Année du prélèvement </param>
+            <param name="heure">Heure de la journée : min 5 , max 23</param>
+            <param name="taux"> Tauxde participation</param>
+            <param name="sexe">Sexe du participant : H/F</param>
+        </member>
+        <member name="F:DataViewer.DataViewer.components">
+            <summary>
+            Variable nécessaire au concepteur.
+            </summary>
+        </member>
+        <member name="M:DataViewer.DataViewer.Dispose(System.Boolean)">
+            <summary>
+            Nettoyage des ressources utilisées.
+            </summary>
+            <param name="disposing">true si les ressources managées doivent être supprimées ; sinon, false.</param>
+        </member>
+        <member name="M:DataViewer.DataViewer.InitializeComponent">
+            <summary>
+            Méthode requise pour la prise en charge du concepteur - ne modifiez pas
+            le contenu de cette méthode avec l'éditeur de code.
+            </summary>
+        </member>
+        <member name="M:DataViewer.Frm_Visualizer.loadStatMedia">
+            <summary>
+            Construction d'un diagramme en bâton avec les stat Media
+            </summary>
+        </member>
+        <member name="M:DataViewer.Frm_Visualizer.loadStatAnnee">
+            <summary>
+            Construction d'une courbe avec les stat Annee
+            </summary>
+        </member>
+        <member name="M:DataViewer.Frm_Visualizer.loadStatHeures">
+            <summary>
+            Construction d'une courbe avec les stat Heure
+            </summary>
+        </member>
+        <member name="M:DataViewer.Frm_Visualizer.loadStatType">
+            <summary>
+            Construction d'un diagramme circulaire avec les stat Type Media
+            </summary>
+        </member>
+        <member name="M:DataViewer.Frm_Visualizer.loadStatCategorie">
+            <summary>
+            Construction d'un diagramme circulaire avec les stat Categorie Media
+            </summary>
+        </member>
+        <member name="M:DataViewer.Frm_Visualizer.loadData">
+            <summary>
+            Charger la liste d'objets de type Data séléctionnés par l'utilisateur dans une ListView
+            </summary>
+        </member>
+        <member name="F:DataViewer.Frm_Visualizer.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:DataViewer.Frm_Visualizer.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:DataViewer.Frm_Visualizer.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:DataViewer.Program.Main">
+            <summary>
+            Point d'entrée principal de l'application.
+            </summary>
+        </member>
+        <member name="M:DataViewer.Sql.#ctor">
+            <summary>
+            Constructeur de la Classe Sql
+            </summary>
+        </member>
+        <!-- Badly formed XML comment ignored for member "P:DataViewer.Sql.Cnx" -->
+        <member name="M:DataViewer.Sql.chargerDonnees(System.String)">
+            <summary>
+            Permet de charger toutes les données dans une liste de type Data 
+            </summary>
+            <param name="req"> Reqête SQL qui permet de retourner toutes les données de la BDD</param>
+            <returns> List d'objets de type Data</returns>
+        </member>
+        <member name="M:DataViewer.Sql.creationVue(System.String)">
+            <summary>
+            Permet d'exécuter la requete de création de vue
+            </summary>
+            <param name="req"> requete SQL</param>
+        </member>
+        <member name="M:DataViewer.Sql.statMedia">
+            <summary>
+            Chercher la moyenne du taux de participation H/F par libMedia
+            </summary>
+            <returns>List d'objets de type Data</returns>
+        </member>
+        <member name="M:DataViewer.Sql.statAnnee">
+            <summary>
+            Chercher la moyenne du taux de participation H/F par année
+            </summary>
+            <returns>List d'objets de type Data</returns>
+        </member>
+        <member name="M:DataViewer.Sql.statHeure">
+            <summary>
+            Chercher la moyenne du taux de participation H/F par heure
+            </summary>
+            <returns>List d'objets de type Data</returns>
+        </member>
+        <member name="M:DataViewer.Sql.statType">
+            <summary>
+            Chercher la moyenne du taux de participation H/F par Type Media
+            </summary>
+            <returns>List d'objets de type Data</returns>
+        </member>
+        <member name="M:DataViewer.Sql.statCategorie">
+            <summary>
+            Chercher la moyenne du taux de participation H/F par Catégorie de Media
+            </summary>
+            <returns>List d'objets de type Data</returns>
+        </member>
+        <member name="T:DataViewer.Properties.Resources">
+            <summary>
+              Une classe de ressource fortement typée destinée, entre autres, à la consultation des chaînes localisées.
+            </summary>
+        </member>
+        <member name="P:DataViewer.Properties.Resources.ResourceManager">
+            <summary>
+              Retourne l'instance ResourceManager mise en cache utilisée par cette classe.
+            </summary>
+        </member>
+        <member name="P:DataViewer.Properties.Resources.Culture">
+            <summary>
+              Remplace la propriété CurrentUICulture du thread actuel pour toutes
+              les recherches de ressources à l'aide de cette classe de ressource fortement typée.
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,219 @@
+\hypertarget{class_data_viewer_1_1_fonctions}{}\doxysection{Data\+Viewer.\+Fonctions Class Reference}
+\label{class_data_viewer_1_1_fonctions}\index{DataViewer.Fonctions@{DataViewer.Fonctions}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_data_viewer_1_1_fonctions_a51f85c70be7e649da3eaf7e55a9bdd36}{afficher\+Donnees}} (List$<$ \mbox{\hyperlink{class_data_viewer_1_1_data}{Data}} $>$ result, List\+View list\+View)
+\begin{DoxyCompactList}\small\item\em Afficher une liste d\textquotesingle{}ibjets de type \mbox{\hyperlink{class_data_viewer_1_1_data}{Data}} dans une List\+View \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_data_viewer_1_1_fonctions_ac6f74468e6943599b7cae06c5a1e3c21}{afficher\+Table\+Heures}} (List$<$ \mbox{\hyperlink{class_data_viewer_1_1_data}{Data}} $>$ list\+Data, Checked\+List\+Box clk)
+\begin{DoxyCompactList}\small\item\em Afficher la liste des Heures dans une Checked\+List\+Box \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_data_viewer_1_1_fonctions_ace421aadde5264bd32311625aaf92737}{afficher\+Table\+Annees}} (List$<$ \mbox{\hyperlink{class_data_viewer_1_1_data}{Data}} $>$ list\+Data, Checked\+List\+Box clk)
+\begin{DoxyCompactList}\small\item\em Afficher la liste des Année dans une Checked\+List\+Box \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_data_viewer_1_1_fonctions_a9415f9d12eeccbf8804fcd3834606ba2}{afficher\+Table\+Media}} (List$<$ \mbox{\hyperlink{class_data_viewer_1_1_data}{Data}} $>$ list\+Data, Checked\+List\+Box clk)
+\begin{DoxyCompactList}\small\item\em Afficher la liste des Libellé Media dans une Checked\+List\+Box \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_data_viewer_1_1_fonctions_aca814c09f61503857b47e6fc6d642a77}{afficher\+Table\+Type}} (List$<$ \mbox{\hyperlink{class_data_viewer_1_1_data}{Data}} $>$ list\+Data, Checked\+List\+Box clk)
+\begin{DoxyCompactList}\small\item\em Afficher la liste des Type Media dans une Checked\+List\+Box \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_data_viewer_1_1_fonctions_a1293cb21de1a326fe9d5252517bc3587}{afficher\+Table\+Categorie}} (List$<$ \mbox{\hyperlink{class_data_viewer_1_1_data}{Data}} $>$ list\+Data, Checked\+List\+Box clk)
+\begin{DoxyCompactList}\small\item\em Afficher la liste des Categories Media dans une Checked\+List\+Box \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{class_data_viewer_1_1_fonctions_a9f4fae2afa69aa7f89999df5473a01e6}{ck\+Box\+To\+String}} (Checked\+List\+Box ck\+Box, string attribut)
+\begin{DoxyCompactList}\small\item\em Transformer les items (string) d\textquotesingle{}une Checked\+Lis\+Box sélectionnées en une chaines de caractère \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{class_data_viewer_1_1_fonctions_adc0ddaf6f25c2763364194251f2dcd51}{ck\+Box\+To\+Int}} (Checked\+List\+Box ck\+Box, string attribut)
+\begin{DoxyCompactList}\small\item\em Transformer les items (int) d\textquotesingle{}une Checked\+Lis\+Box sélectionnées en une chaines de caractère \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{class_data_viewer_1_1_fonctions_a1f97f2450092d87f5af3f847612b2cfd}{requete\+Parametree}} (Checked\+List\+Box ck\+\_\+box\+\_\+media, Checked\+List\+Box ck\+\_\+box\+\_\+annee, Checked\+List\+Box ck\+\_\+box\+\_\+heure, Checked\+List\+Box ck\+\_\+box\+\_\+media\+\_\+type, Checked\+List\+Box ck\+\_\+box\+\_\+media\+\_\+categorie)
+\begin{DoxyCompactList}\small\item\em Construction d\textquotesingle{}une requete S\+QL paramétrée \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{class_data_viewer_1_1_fonctions_a4810d2dbcb5e65515011b6865454231e}{requete\+Vue}} (string req)
+\begin{DoxyCompactList}\small\item\em construction de la requete de création de vue \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_data_viewer_1_1_fonctions_a51f85c70be7e649da3eaf7e55a9bdd36}\label{class_data_viewer_1_1_fonctions_a51f85c70be7e649da3eaf7e55a9bdd36}} 
+\index{DataViewer.Fonctions@{DataViewer.Fonctions}!afficherDonnees@{afficherDonnees}}
+\index{afficherDonnees@{afficherDonnees}!DataViewer.Fonctions@{DataViewer.Fonctions}}
+\doxysubsubsection{\texorpdfstring{afficherDonnees()}{afficherDonnees()}}
+{\footnotesize\ttfamily void Data\+Viewer.\+Fonctions.\+afficher\+Donnees (\begin{DoxyParamCaption}\item[{List$<$ \mbox{\hyperlink{class_data_viewer_1_1_data}{Data}} $>$}]{result,  }\item[{List\+View}]{list\+View }\end{DoxyParamCaption})}
+
+
+
+Afficher une liste d\textquotesingle{}ibjets de type \mbox{\hyperlink{class_data_viewer_1_1_data}{Data}} dans une List\+View 
+
+
+\begin{DoxyParams}{Parameters}
+{\em result} & Liste d\textquotesingle{}objets à afficher\\
+\hline
+{\em list\+View} & Contrôle Win\+Form\\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_data_viewer_1_1_fonctions_ace421aadde5264bd32311625aaf92737}\label{class_data_viewer_1_1_fonctions_ace421aadde5264bd32311625aaf92737}} 
+\index{DataViewer.Fonctions@{DataViewer.Fonctions}!afficherTableAnnees@{afficherTableAnnees}}
+\index{afficherTableAnnees@{afficherTableAnnees}!DataViewer.Fonctions@{DataViewer.Fonctions}}
+\doxysubsubsection{\texorpdfstring{afficherTableAnnees()}{afficherTableAnnees()}}
+{\footnotesize\ttfamily void Data\+Viewer.\+Fonctions.\+afficher\+Table\+Annees (\begin{DoxyParamCaption}\item[{List$<$ \mbox{\hyperlink{class_data_viewer_1_1_data}{Data}} $>$}]{list\+Data,  }\item[{Checked\+List\+Box}]{clk }\end{DoxyParamCaption})}
+
+
+
+Afficher la liste des Année dans une Checked\+List\+Box 
+
+
+\begin{DoxyParams}{Parameters}
+{\em list\+Data} & Liste d\textquotesingle{}objets de type \mbox{\hyperlink{class_data_viewer_1_1_data}{Data}} contenant les éléments à afficher\\
+\hline
+{\em clk} & Contrôle Win\+Form\\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_data_viewer_1_1_fonctions_a1293cb21de1a326fe9d5252517bc3587}\label{class_data_viewer_1_1_fonctions_a1293cb21de1a326fe9d5252517bc3587}} 
+\index{DataViewer.Fonctions@{DataViewer.Fonctions}!afficherTableCategorie@{afficherTableCategorie}}
+\index{afficherTableCategorie@{afficherTableCategorie}!DataViewer.Fonctions@{DataViewer.Fonctions}}
+\doxysubsubsection{\texorpdfstring{afficherTableCategorie()}{afficherTableCategorie()}}
+{\footnotesize\ttfamily void Data\+Viewer.\+Fonctions.\+afficher\+Table\+Categorie (\begin{DoxyParamCaption}\item[{List$<$ \mbox{\hyperlink{class_data_viewer_1_1_data}{Data}} $>$}]{list\+Data,  }\item[{Checked\+List\+Box}]{clk }\end{DoxyParamCaption})}
+
+
+
+Afficher la liste des Categories Media dans une Checked\+List\+Box 
+
+
+\begin{DoxyParams}{Parameters}
+{\em list\+Data} & Liste d\textquotesingle{}objets de type \mbox{\hyperlink{class_data_viewer_1_1_data}{Data}} contenant les éléments à afficher\\
+\hline
+{\em clk} & Contrôle Win\+Form\\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_data_viewer_1_1_fonctions_ac6f74468e6943599b7cae06c5a1e3c21}\label{class_data_viewer_1_1_fonctions_ac6f74468e6943599b7cae06c5a1e3c21}} 
+\index{DataViewer.Fonctions@{DataViewer.Fonctions}!afficherTableHeures@{afficherTableHeures}}
+\index{afficherTableHeures@{afficherTableHeures}!DataViewer.Fonctions@{DataViewer.Fonctions}}
+\doxysubsubsection{\texorpdfstring{afficherTableHeures()}{afficherTableHeures()}}
+{\footnotesize\ttfamily void Data\+Viewer.\+Fonctions.\+afficher\+Table\+Heures (\begin{DoxyParamCaption}\item[{List$<$ \mbox{\hyperlink{class_data_viewer_1_1_data}{Data}} $>$}]{list\+Data,  }\item[{Checked\+List\+Box}]{clk }\end{DoxyParamCaption})}
+
+
+
+Afficher la liste des Heures dans une Checked\+List\+Box 
+
+
+\begin{DoxyParams}{Parameters}
+{\em list\+Data} & Liste d\textquotesingle{}objets de type \mbox{\hyperlink{class_data_viewer_1_1_data}{Data}} contenant les éléments à afficher\\
+\hline
+{\em clk} & Contrôle Win\+Form\\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_data_viewer_1_1_fonctions_a9415f9d12eeccbf8804fcd3834606ba2}\label{class_data_viewer_1_1_fonctions_a9415f9d12eeccbf8804fcd3834606ba2}} 
+\index{DataViewer.Fonctions@{DataViewer.Fonctions}!afficherTableMedia@{afficherTableMedia}}
+\index{afficherTableMedia@{afficherTableMedia}!DataViewer.Fonctions@{DataViewer.Fonctions}}
+\doxysubsubsection{\texorpdfstring{afficherTableMedia()}{afficherTableMedia()}}
+{\footnotesize\ttfamily void Data\+Viewer.\+Fonctions.\+afficher\+Table\+Media (\begin{DoxyParamCaption}\item[{List$<$ \mbox{\hyperlink{class_data_viewer_1_1_data}{Data}} $>$}]{list\+Data,  }\item[{Checked\+List\+Box}]{clk }\end{DoxyParamCaption})}
+
+
+
+Afficher la liste des Libellé Media dans une Checked\+List\+Box 
+
+
+\begin{DoxyParams}{Parameters}
+{\em list\+Data} & Liste d\textquotesingle{}objets de type \mbox{\hyperlink{class_data_viewer_1_1_data}{Data}} contenant les éléments à afficher\\
+\hline
+{\em clk} & Contrôle Win\+Form\\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_data_viewer_1_1_fonctions_aca814c09f61503857b47e6fc6d642a77}\label{class_data_viewer_1_1_fonctions_aca814c09f61503857b47e6fc6d642a77}} 
+\index{DataViewer.Fonctions@{DataViewer.Fonctions}!afficherTableType@{afficherTableType}}
+\index{afficherTableType@{afficherTableType}!DataViewer.Fonctions@{DataViewer.Fonctions}}
+\doxysubsubsection{\texorpdfstring{afficherTableType()}{afficherTableType()}}
+{\footnotesize\ttfamily void Data\+Viewer.\+Fonctions.\+afficher\+Table\+Type (\begin{DoxyParamCaption}\item[{List$<$ \mbox{\hyperlink{class_data_viewer_1_1_data}{Data}} $>$}]{list\+Data,  }\item[{Checked\+List\+Box}]{clk }\end{DoxyParamCaption})}
+
+
+
+Afficher la liste des Type Media dans une Checked\+List\+Box 
+
+
+\begin{DoxyParams}{Parameters}
+{\em list\+Data} & Liste d\textquotesingle{}objets de type \mbox{\hyperlink{class_data_viewer_1_1_data}{Data}} contenant les éléments à afficher\\
+\hline
+{\em clk} & Contrôle Win\+Form\\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_data_viewer_1_1_fonctions_adc0ddaf6f25c2763364194251f2dcd51}\label{class_data_viewer_1_1_fonctions_adc0ddaf6f25c2763364194251f2dcd51}} 
+\index{DataViewer.Fonctions@{DataViewer.Fonctions}!ckBoxToInt@{ckBoxToInt}}
+\index{ckBoxToInt@{ckBoxToInt}!DataViewer.Fonctions@{DataViewer.Fonctions}}
+\doxysubsubsection{\texorpdfstring{ckBoxToInt()}{ckBoxToInt()}}
+{\footnotesize\ttfamily string Data\+Viewer.\+Fonctions.\+ck\+Box\+To\+Int (\begin{DoxyParamCaption}\item[{Checked\+List\+Box}]{ck\+Box,  }\item[{string}]{attribut }\end{DoxyParamCaption})}
+
+
+
+Transformer les items (int) d\textquotesingle{}une Checked\+Lis\+Box sélectionnées en une chaines de caractère 
+
+
+\begin{DoxyParams}{Parameters}
+{\em ck\+Box} & Contrôle Win\+Form\\
+\hline
+{\em attribut} & L\textquotesingle{}attribut à filtrer\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Chaine de caractères
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_data_viewer_1_1_fonctions_a9f4fae2afa69aa7f89999df5473a01e6}\label{class_data_viewer_1_1_fonctions_a9f4fae2afa69aa7f89999df5473a01e6}} 
+\index{DataViewer.Fonctions@{DataViewer.Fonctions}!ckBoxToString@{ckBoxToString}}
+\index{ckBoxToString@{ckBoxToString}!DataViewer.Fonctions@{DataViewer.Fonctions}}
+\doxysubsubsection{\texorpdfstring{ckBoxToString()}{ckBoxToString()}}
+{\footnotesize\ttfamily string Data\+Viewer.\+Fonctions.\+ck\+Box\+To\+String (\begin{DoxyParamCaption}\item[{Checked\+List\+Box}]{ck\+Box,  }\item[{string}]{attribut }\end{DoxyParamCaption})}
+
+
+
+Transformer les items (string) d\textquotesingle{}une Checked\+Lis\+Box sélectionnées en une chaines de caractère 
+
+
+\begin{DoxyParams}{Parameters}
+{\em ck\+Box} & Contrôle Win\+Form\\
+\hline
+{\em attribut} & L\textquotesingle{}attribut à filtrer\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+chaine de caractères
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_data_viewer_1_1_fonctions_a1f97f2450092d87f5af3f847612b2cfd}\label{class_data_viewer_1_1_fonctions_a1f97f2450092d87f5af3f847612b2cfd}} 
+\index{DataViewer.Fonctions@{DataViewer.Fonctions}!requeteParametree@{requeteParametree}}
+\index{requeteParametree@{requeteParametree}!DataViewer.Fonctions@{DataViewer.Fonctions}}
+\doxysubsubsection{\texorpdfstring{requeteParametree()}{requeteParametree()}}
+{\footnotesize\ttfamily string Data\+Viewer.\+Fonctions.\+requete\+Parametree (\begin{DoxyParamCaption}\item[{Checked\+List\+Box}]{ck\+\_\+box\+\_\+media,  }\item[{Checked\+List\+Box}]{ck\+\_\+box\+\_\+annee,  }\item[{Checked\+List\+Box}]{ck\+\_\+box\+\_\+heure,  }\item[{Checked\+List\+Box}]{ck\+\_\+box\+\_\+media\+\_\+type,  }\item[{Checked\+List\+Box}]{ck\+\_\+box\+\_\+media\+\_\+categorie }\end{DoxyParamCaption})}
+
+
+
+Construction d\textquotesingle{}une requete S\+QL paramétrée 
+
+
+\begin{DoxyParams}{Parameters}
+{\em ck\+\_\+box\+\_\+media} & Contrôle Win\+Form contenant les Media sélectionnée par l\textquotesingle{}utilisateur\\
+\hline
+{\em ck\+\_\+box\+\_\+annee} & Contrôle Win\+Form contenant les années sélectionnée par l\textquotesingle{}utilisateur\\
+\hline
+{\em ck\+\_\+box\+\_\+heure} & Contrôle Win\+Form contenant les heures sélectionnée par l\textquotesingle{}utilisateur\\
+\hline
+{\em ck\+\_\+box\+\_\+media\+\_\+type} & Contrôle Win\+Form contenant les Type Media sélectionnée par l\textquotesingle{}utilisateur\\
+\hline
+{\em ck\+\_\+box\+\_\+media\+\_\+categorie} & Contrôle Win\+Form contenant les Categories Media sélectionnée par l\textquotesingle{}utilisateur\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+chaine de caractère \+: requête S\+QL pâramétrée
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_data_viewer_1_1_fonctions_a4810d2dbcb5e65515011b6865454231e}\label{class_data_viewer_1_1_fonctions_a4810d2dbcb5e65515011b6865454231e}} 
+\index{DataViewer.Fonctions@{DataViewer.Fonctions}!requeteVue@{requeteVue}}
+\index{requeteVue@{requeteVue}!DataViewer.Fonctions@{DataViewer.Fonctions}}
+\doxysubsubsection{\texorpdfstring{requeteVue()}{requeteVue()}}
+{\footnotesize\ttfamily string Data\+Viewer.\+Fonctions.\+requete\+Vue (\begin{DoxyParamCaption}\item[{string}]{req }\end{DoxyParamCaption})}
+
+
+
+construction de la requete de création de vue 
+
+
+\begin{DoxyParams}{Parameters}
+{\em req} & requetes S\+QL (Select) paramétrée\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+chaine de caractère \+: requête S\+QL de création de vue
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+Sami/\+Desktop/\+Abir/\+Cours/\+A\+L\+Q/\+Data\+Viewer\+\_\+\+Khemiri\+\_\+\+Tahri\+\_\+\+Du/\+Data\+Viewer/\+Data\+Viewer/Fonctions.\+cs\end{DoxyCompactItemize}

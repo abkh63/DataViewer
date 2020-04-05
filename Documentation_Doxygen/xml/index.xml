@@ -1,0 +1,193 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.17">
+  <compound refid="class_data_viewer_1_1_data" kind="class"><name>DataViewer::Data</name>
+    <member refid="class_data_viewer_1_1_data_1ad8f8f357a987010b211ef247b5261afc" kind="variable"><name>media</name></member>
+    <member refid="class_data_viewer_1_1_data_1a24c06f17bf2d57d270ecc220f1c4607f" kind="variable"><name>type</name></member>
+    <member refid="class_data_viewer_1_1_data_1a8284713716bf7ef3a07b21991c54bd22" kind="variable"><name>categorie</name></member>
+    <member refid="class_data_viewer_1_1_data_1a9a36b7a0ce8286ee2824bbf2a7c5526b" kind="variable"><name>annee</name></member>
+    <member refid="class_data_viewer_1_1_data_1a97d31b1d1e9d4b8ad7f6529757f6226d" kind="variable"><name>heure</name></member>
+    <member refid="class_data_viewer_1_1_data_1a97c837476b4d913fa686127cb52fc4e0" kind="variable"><name>taux</name></member>
+    <member refid="class_data_viewer_1_1_data_1ad4afcb8e2c3608136c500e3b58ef5854" kind="variable"><name>sexe</name></member>
+    <member refid="class_data_viewer_1_1_data_1aaa4f43d5f2cde9cdd553afc3ec9689e0" kind="property"><name>Media</name></member>
+    <member refid="class_data_viewer_1_1_data_1acdfed1b6e11846e129f24a0568fa8fce" kind="property"><name>Type</name></member>
+    <member refid="class_data_viewer_1_1_data_1a0a7ffca9ff04d691d880f3e0a3e26221" kind="property"><name>Categorie</name></member>
+    <member refid="class_data_viewer_1_1_data_1a68cb72a01b1cb49785895d5df0d0b441" kind="property"><name>Annee</name></member>
+    <member refid="class_data_viewer_1_1_data_1a2a91710083d5509b7c7cbe3e8a692551" kind="property"><name>Heure</name></member>
+    <member refid="class_data_viewer_1_1_data_1a6d41e3c0bb3d0a1d10881ab831d489db" kind="property"><name>Taux</name></member>
+    <member refid="class_data_viewer_1_1_data_1ab996268a841c9e1dff806d873673ac36" kind="property"><name>Sexe</name></member>
+    <member refid="class_data_viewer_1_1_data_1acbc7969a5b86fffd5a8decb4eb440c83" kind="function"><name>Data</name></member>
+  </compound>
+  <compound refid="class_data_viewer_1_1_data_viewer" kind="class"><name>DataViewer::DataViewer</name>
+    <member refid="class_data_viewer_1_1_data_viewer_1a0e50a6856b604d95ec0674a131dec24f" kind="variable"><name>fonction</name></member>
+    <member refid="class_data_viewer_1_1_data_viewer_1a8e6ebd231a7b65b63ab9481163807303" kind="variable"><name>sql</name></member>
+    <member refid="class_data_viewer_1_1_data_viewer_1a7f83208d827d2b71c3857fc59b0e68ff" kind="variable"><name>components</name></member>
+    <member refid="class_data_viewer_1_1_data_viewer_1ac04a9976d4ef1d582a7184d1c8354892" kind="variable"><name>listView1</name></member>
+    <member refid="class_data_viewer_1_1_data_viewer_1acb14517e6da375e674271e116f1429af" kind="variable"><name>sexe</name></member>
+    <member refid="class_data_viewer_1_1_data_viewer_1abb66fda7ccaf09536917f32d1520bd4b" kind="variable"><name>media</name></member>
+    <member refid="class_data_viewer_1_1_data_viewer_1a2b6baf6446b180dfad6671bc825659eb" kind="variable"><name>type</name></member>
+    <member refid="class_data_viewer_1_1_data_viewer_1afd320aee8ea1ef3a6f046053695a4768" kind="variable"><name>categorie</name></member>
+    <member refid="class_data_viewer_1_1_data_viewer_1a7418e3c6e5fd0f8068cc46d3d31f7cd9" kind="variable"><name>annee</name></member>
+    <member refid="class_data_viewer_1_1_data_viewer_1a90ced1d5dbc6d7d10380ec59d12c2a8a" kind="variable"><name>heure</name></member>
+    <member refid="class_data_viewer_1_1_data_viewer_1abcca544dbde795faab0919109abf71f8" kind="variable"><name>taux</name></member>
+    <member refid="class_data_viewer_1_1_data_viewer_1a68e637aa49142720f9656cb34823ab9d" kind="variable"><name>Onglets</name></member>
+    <member refid="class_data_viewer_1_1_data_viewer_1a50f4fa97ca583d3957873a6c77f38c03" kind="variable"><name>tabPage1</name></member>
+    <member refid="class_data_viewer_1_1_data_viewer_1a45e27317db4bfcf2fd15b0f1186f5036" kind="variable"><name>tabPage2</name></member>
+    <member refid="class_data_viewer_1_1_data_viewer_1a4665129257473bb1675a72626235eb97" kind="variable"><name>visualiser</name></member>
+    <member refid="class_data_viewer_1_1_data_viewer_1a4f13442bfbd40b9604321b7ac2196593" kind="variable"><name>label2</name></member>
+    <member refid="class_data_viewer_1_1_data_viewer_1af982b69754816104ecfceffedf9767f4" kind="variable"><name>ck_box_heure</name></member>
+    <member refid="class_data_viewer_1_1_data_viewer_1af5015dd2a6a4f460f77c757864bf6c5f" kind="variable"><name>ck_box_media</name></member>
+    <member refid="class_data_viewer_1_1_data_viewer_1a0e9850297cb6e8bb0b0408b018d475d2" kind="variable"><name>ck_box_annee</name></member>
+    <member refid="class_data_viewer_1_1_data_viewer_1a7c01b3ca3245419013105a0afa346697" kind="variable"><name>label3</name></member>
+    <member refid="class_data_viewer_1_1_data_viewer_1ad327734f4e768e7576b9d4395b22c0d1" kind="variable"><name>ck_box_media_categorie</name></member>
+    <member refid="class_data_viewer_1_1_data_viewer_1a06f32f9ca70bb3c7bf7374be45150c51" kind="variable"><name>ck_box_media_type</name></member>
+    <member refid="class_data_viewer_1_1_data_viewer_1a273657a1d90eede64109dec192f4b198" kind="variable"><name>label6</name></member>
+    <member refid="class_data_viewer_1_1_data_viewer_1a08e80fb396fb420c38b224aeeebf431b" kind="variable"><name>label5</name></member>
+    <member refid="class_data_viewer_1_1_data_viewer_1a6cb0c277995ad99057872decc25f9229" kind="variable"><name>label4</name></member>
+    <member refid="class_data_viewer_1_1_data_viewer_1a2b27755241bf4b3c4303cc5b27a084d7" kind="function"><name>DataViewer</name></member>
+    <member refid="class_data_viewer_1_1_data_viewer_1a882fe884e7b1fc63b3af6cbbaaa356b4" kind="function"><name>chargerData</name></member>
+    <member refid="class_data_viewer_1_1_data_viewer_1a4a9e37cd47b15866d0cce2378f8e538a" kind="function"><name>Visualiser_Click</name></member>
+    <member refid="class_data_viewer_1_1_data_viewer_1a14151da3a10d64e015cbcbfdd82bb969" kind="function"><name>InitializeComponent</name></member>
+    <member refid="class_data_viewer_1_1_data_viewer_1a209d779e6d34a2830799eb6867a2e205" kind="function"><name>Dispose</name></member>
+  </compound>
+  <compound refid="class_data_viewer_1_1_fonctions" kind="class"><name>DataViewer::Fonctions</name>
+    <member refid="class_data_viewer_1_1_fonctions_1a51f85c70be7e649da3eaf7e55a9bdd36" kind="function"><name>afficherDonnees</name></member>
+    <member refid="class_data_viewer_1_1_fonctions_1ac6f74468e6943599b7cae06c5a1e3c21" kind="function"><name>afficherTableHeures</name></member>
+    <member refid="class_data_viewer_1_1_fonctions_1ace421aadde5264bd32311625aaf92737" kind="function"><name>afficherTableAnnees</name></member>
+    <member refid="class_data_viewer_1_1_fonctions_1a9415f9d12eeccbf8804fcd3834606ba2" kind="function"><name>afficherTableMedia</name></member>
+    <member refid="class_data_viewer_1_1_fonctions_1aca814c09f61503857b47e6fc6d642a77" kind="function"><name>afficherTableType</name></member>
+    <member refid="class_data_viewer_1_1_fonctions_1a1293cb21de1a326fe9d5252517bc3587" kind="function"><name>afficherTableCategorie</name></member>
+    <member refid="class_data_viewer_1_1_fonctions_1a9f4fae2afa69aa7f89999df5473a01e6" kind="function"><name>ckBoxToString</name></member>
+    <member refid="class_data_viewer_1_1_fonctions_1adc0ddaf6f25c2763364194251f2dcd51" kind="function"><name>ckBoxToInt</name></member>
+    <member refid="class_data_viewer_1_1_fonctions_1a1f97f2450092d87f5af3f847612b2cfd" kind="function"><name>requeteParametree</name></member>
+    <member refid="class_data_viewer_1_1_fonctions_1a4810d2dbcb5e65515011b6865454231e" kind="function"><name>requeteVue</name></member>
+  </compound>
+  <compound refid="class_data_viewer_1_1_frm___visualizer" kind="class"><name>DataViewer::Frm_Visualizer</name>
+    <member refid="class_data_viewer_1_1_frm___visualizer_1a81c2fe25e6c69fa60ce88bb0493c127a" kind="variable"><name>sql</name></member>
+    <member refid="class_data_viewer_1_1_frm___visualizer_1a5c2a1763863be0c8098078c751759ffe" kind="variable"><name>components</name></member>
+    <member refid="class_data_viewer_1_1_frm___visualizer_1ab0511b6dd2f1c9f243ff399eec1fb55c" kind="variable"><name>chartMedia</name></member>
+    <member refid="class_data_viewer_1_1_frm___visualizer_1a967d6ef80a9a5faba62e424bbc1d9b3d" kind="variable"><name>tabControl1</name></member>
+    <member refid="class_data_viewer_1_1_frm___visualizer_1a5d9460417677998b6b16c76e76bcee41" kind="variable"><name>tabMedia</name></member>
+    <member refid="class_data_viewer_1_1_frm___visualizer_1adde29ef2231a2e03026acaa64d45eb6a" kind="variable"><name>tabAnnee</name></member>
+    <member refid="class_data_viewer_1_1_frm___visualizer_1af9a13b2342f75db7b9325a4379e1cb10" kind="variable"><name>chartAnnees</name></member>
+    <member refid="class_data_viewer_1_1_frm___visualizer_1a54f49931a32760333cc39a5e27591af0" kind="variable"><name>tabHeure</name></member>
+    <member refid="class_data_viewer_1_1_frm___visualizer_1a3adf236ed7e492cc725afd4e9c465c2a" kind="variable"><name>label1</name></member>
+    <member refid="class_data_viewer_1_1_frm___visualizer_1ac100030206b1a1a9e684c011db8c8a58" kind="variable"><name>chartHeures</name></member>
+    <member refid="class_data_viewer_1_1_frm___visualizer_1a9954e822b1faff78b1457147c6e47635" kind="variable"><name>tabType</name></member>
+    <member refid="class_data_viewer_1_1_frm___visualizer_1a57f6f71350bbe59888afc8ec3ee30c4b" kind="variable"><name>tabCategorie</name></member>
+    <member refid="class_data_viewer_1_1_frm___visualizer_1ab3ba2be25a4acf61fa9d2b12040a0e7c" kind="variable"><name>chartTv</name></member>
+    <member refid="class_data_viewer_1_1_frm___visualizer_1aa1f6be866c94ebc5ea88ae2ed635bbf2" kind="variable"><name>chartRadio</name></member>
+    <member refid="class_data_viewer_1_1_frm___visualizer_1a88f1f29e2c68dfe4a4949d2fb6f41e80" kind="variable"><name>label3</name></member>
+    <member refid="class_data_viewer_1_1_frm___visualizer_1af77f090b0d964e26b114d4de1d549a39" kind="variable"><name>label2</name></member>
+    <member refid="class_data_viewer_1_1_frm___visualizer_1a35c4be62cf17d5c9e3aaecae89636eff" kind="variable"><name>label4</name></member>
+    <member refid="class_data_viewer_1_1_frm___visualizer_1a1b094d943c0bee023488ba1c335b42e7" kind="variable"><name>label5</name></member>
+    <member refid="class_data_viewer_1_1_frm___visualizer_1a6c77a81cf671d5f8c084ead1b28aee72" kind="variable"><name>label6</name></member>
+    <member refid="class_data_viewer_1_1_frm___visualizer_1a3a35296d52db2abb24e229777041dfc6" kind="variable"><name>label7</name></member>
+    <member refid="class_data_viewer_1_1_frm___visualizer_1a2bb10408a2986d0dc12029c6d4e209eb" kind="variable"><name>label8</name></member>
+    <member refid="class_data_viewer_1_1_frm___visualizer_1a511ecd61787f64502e5ba061ac46c6cf" kind="variable"><name>label9</name></member>
+    <member refid="class_data_viewer_1_1_frm___visualizer_1a913c52d5691766c5e10a424a4a8ff529" kind="variable"><name>chartPrivee</name></member>
+    <member refid="class_data_viewer_1_1_frm___visualizer_1abbeba4df3a2793c23ab3644f134380a4" kind="variable"><name>chartPublique</name></member>
+    <member refid="class_data_viewer_1_1_frm___visualizer_1a28468748200a5ccb5028f8105fa04859" kind="variable"><name>lblWarning4</name></member>
+    <member refid="class_data_viewer_1_1_frm___visualizer_1a0da2039d44cd242ff9014b7d7f477177" kind="variable"><name>lblWarning1</name></member>
+    <member refid="class_data_viewer_1_1_frm___visualizer_1a6d1ac111a92ebaefb05c3b9800b55c76" kind="variable"><name>lblWarning3</name></member>
+    <member refid="class_data_viewer_1_1_frm___visualizer_1ad9d007b65ce6d38e81aeed0a5cb601d9" kind="variable"><name>lblWarning2</name></member>
+    <member refid="class_data_viewer_1_1_frm___visualizer_1a877f6aa803fdb70bfa12aab2683ee1e5" kind="variable"><name>tabData</name></member>
+    <member refid="class_data_viewer_1_1_frm___visualizer_1a30fc7221d0296422e87ee999131bb070" kind="variable"><name>lvData</name></member>
+    <member refid="class_data_viewer_1_1_frm___visualizer_1a25cca9ae47dbb229e646a41e346f36d2" kind="variable"><name>sexe</name></member>
+    <member refid="class_data_viewer_1_1_frm___visualizer_1a9db5274a2bd0eca39914458323a4a75b" kind="variable"><name>media</name></member>
+    <member refid="class_data_viewer_1_1_frm___visualizer_1a5e46c0c3b19ab68d39d841f1583e20cb" kind="variable"><name>type</name></member>
+    <member refid="class_data_viewer_1_1_frm___visualizer_1a14b896d6caa1c76a84e78c9294090507" kind="variable"><name>categorie</name></member>
+    <member refid="class_data_viewer_1_1_frm___visualizer_1aece497fe1604cdb422bafee7b8e6ff8c" kind="variable"><name>annee</name></member>
+    <member refid="class_data_viewer_1_1_frm___visualizer_1a8c4930bd822b033e9364fcf2d7e4d4cd" kind="variable"><name>heure</name></member>
+    <member refid="class_data_viewer_1_1_frm___visualizer_1ac21ab20ff5a0a15eb691b9b478808896" kind="variable"><name>taux</name></member>
+    <member refid="class_data_viewer_1_1_frm___visualizer_1a8071d83c72e5940e5c0b2dc96b6f7182" kind="function"><name>Frm_Visualizer</name></member>
+    <member refid="class_data_viewer_1_1_frm___visualizer_1ac5a7b420ad1ae1180ce92124ab42dce8" kind="function"><name>loadStatMedia</name></member>
+    <member refid="class_data_viewer_1_1_frm___visualizer_1a53d4f177100a096cec6f70bdf93195e9" kind="function"><name>loadStatAnnee</name></member>
+    <member refid="class_data_viewer_1_1_frm___visualizer_1a8f155b9d0b89753023a22a1f858e6d0b" kind="function"><name>loadStatHeures</name></member>
+    <member refid="class_data_viewer_1_1_frm___visualizer_1aa4e9e6f29aec56ed535d05cae7ff5424" kind="function"><name>loadStatType</name></member>
+    <member refid="class_data_viewer_1_1_frm___visualizer_1a9d659253aa1f10b9632517db04d9050b" kind="function"><name>loadStatCategorie</name></member>
+    <member refid="class_data_viewer_1_1_frm___visualizer_1aefcd08a56980b02a72913832dad2e6e3" kind="function"><name>loadData</name></member>
+    <member refid="class_data_viewer_1_1_frm___visualizer_1a62748fb691cd5b07767e6dcc989578e2" kind="function"><name>Dispose</name></member>
+    <member refid="class_data_viewer_1_1_frm___visualizer_1ac69fabc1abd3583f9ede6817e53791ac" kind="function"><name>InitializeComponent</name></member>
+  </compound>
+  <compound refid="class_data_viewer_1_1_program" kind="class"><name>DataViewer::Program</name>
+    <member refid="class_data_viewer_1_1_program_1a204836476c9fc7e38b7e2a441e8a3ef7" kind="function"><name>Main</name></member>
+  </compound>
+  <compound refid="class_data_viewer_1_1_sql" kind="class"><name>DataViewer::Sql</name>
+    <member refid="class_data_viewer_1_1_sql_1ad2326af80325a4bfd93967e8c735b14a" kind="variable"><name>cnx</name></member>
+    <member refid="class_data_viewer_1_1_sql_1aef47e6d07c937f0a57a88ef644f5d1df" kind="property"><name>Cnx</name></member>
+    <member refid="class_data_viewer_1_1_sql_1aa48d44a813fa0ff1976faf722c8dfeff" kind="function"><name>Sql</name></member>
+    <member refid="class_data_viewer_1_1_sql_1a9d469456df34a3eee34446c44225543c" kind="function"><name>chargerDonnees</name></member>
+    <member refid="class_data_viewer_1_1_sql_1a65c33104bb62fad0612ab6bbbc77fa24" kind="function"><name>creationVue</name></member>
+    <member refid="class_data_viewer_1_1_sql_1a935dbf7ab0d0927813a2536166b4e745" kind="function"><name>statMedia</name></member>
+    <member refid="class_data_viewer_1_1_sql_1ac83e5c6550a4479869d14b91797e6bcc" kind="function"><name>statAnnee</name></member>
+    <member refid="class_data_viewer_1_1_sql_1af0c45b5df79a957828fe1d74f23608c7" kind="function"><name>statHeure</name></member>
+    <member refid="class_data_viewer_1_1_sql_1a2ee0ab3dd679df0d1080f3d6a16f5da7" kind="function"><name>statType</name></member>
+    <member refid="class_data_viewer_1_1_sql_1ac6757b02e0642b40b2213a7ab8482c84" kind="function"><name>statCategorie</name></member>
+  </compound>
+  <compound refid="namespace_data_viewer" kind="namespace"><name>DataViewer</name>
+  </compound>
+  <compound refid="namespace_live_charts" kind="namespace"><name>LiveCharts</name>
+  </compound>
+  <compound refid="namespace_live_charts_1_1_win_forms" kind="namespace"><name>LiveCharts::WinForms</name>
+  </compound>
+  <compound refid="namespace_live_charts_1_1_wpf" kind="namespace"><name>LiveCharts::Wpf</name>
+  </compound>
+  <compound refid="namespace_my_sql" kind="namespace"><name>MySql</name>
+  </compound>
+  <compound refid="namespace_my_sql_1_1_data_1_1_my_sql_client" kind="namespace"><name>MySql::Data::MySqlClient</name>
+  </compound>
+  <compound refid="namespace_system" kind="namespace"><name>System</name>
+  </compound>
+  <compound refid="namespace_system_1_1_collections_1_1_generic" kind="namespace"><name>System::Collections::Generic</name>
+  </compound>
+  <compound refid="namespace_system_1_1_component_model" kind="namespace"><name>System::ComponentModel</name>
+  </compound>
+  <compound refid="namespace_system_1_1_data" kind="namespace"><name>System::Data</name>
+  </compound>
+  <compound refid="namespace_system_1_1_drawing" kind="namespace"><name>System::Drawing</name>
+  </compound>
+  <compound refid="namespace_system_1_1_linq" kind="namespace"><name>System::Linq</name>
+  </compound>
+  <compound refid="namespace_system_1_1_text" kind="namespace"><name>System::Text</name>
+  </compound>
+  <compound refid="namespace_system_1_1_threading_1_1_tasks" kind="namespace"><name>System::Threading::Tasks</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_forms" kind="namespace"><name>System::Windows::Forms</name>
+  </compound>
+  <compound refid="_data_8cs" kind="file"><name>Data.cs</name>
+  </compound>
+  <compound refid="_fonctions_8cs" kind="file"><name>Fonctions.cs</name>
+  </compound>
+  <compound refid="_frm___accueil_8cs" kind="file"><name>Frm_Accueil.cs</name>
+  </compound>
+  <compound refid="_frm___accueil_8_designer_8cs" kind="file"><name>Frm_Accueil.Designer.cs</name>
+  </compound>
+  <compound refid="_frm___visualizer_8cs" kind="file"><name>Frm_Visualizer.cs</name>
+  </compound>
+  <compound refid="_frm___visualizer_8_designer_8cs" kind="file"><name>Frm_Visualizer.Designer.cs</name>
+  </compound>
+  <compound refid="_program_8cs" kind="file"><name>Program.cs</name>
+  </compound>
+  <compound refid="sql_8cs" kind="file"><name>sql.cs</name>
+  </compound>
+  <compound refid="dir_8b0a5b345335e465d7bbff4c2279e9f6" kind="dir"><name>C:/Users/Sami/Desktop/Abir</name>
+  </compound>
+  <compound refid="dir_60754068a10bc00daba62f3dc77467c8" kind="dir"><name>C:/Users/Sami/Desktop/Abir/Cours/ALQ</name>
+  </compound>
+  <compound refid="dir_e6bb53534ac0e427887cf7a94c0c004e" kind="dir"><name>C:</name>
+  </compound>
+  <compound refid="dir_4696ea3f7d401984f245717c4f60162f" kind="dir"><name>C:/Users/Sami/Desktop/Abir/Cours</name>
+  </compound>
+  <compound refid="dir_85c48c41b952c2afe6c901c78cf24867" kind="dir"><name>C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer</name>
+  </compound>
+  <compound refid="dir_944f3e8f50e108b61cfd0a99a190524c" kind="dir"><name>C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer</name>
+  </compound>
+  <compound refid="dir_bd09e5ed04ceb964bfaf81c34ef3faa4" kind="dir"><name>C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du</name>
+  </compound>
+  <compound refid="dir_8a5f36c37c86ff084cf147243519367f" kind="dir"><name>C:/Users/Sami/Desktop</name>
+  </compound>
+  <compound refid="dir_96e335468b8e4048e67f5f89e1924db6" kind="dir"><name>C:/Users/Sami</name>
+  </compound>
+  <compound refid="dir_8ceffd4ee35c3518d4e8bdc7e638efe8" kind="dir"><name>C:/Users</name>
+  </compound>
+</doxygenindex>

@@ -1,0 +1,164 @@
+\hypertarget{class_data_viewer_1_1_sql}{}\doxysection{Data\+Viewer.\+Sql Class Reference}
+\label{class_data_viewer_1_1_sql}\index{DataViewer.Sql@{DataViewer.Sql}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_data_viewer_1_1_sql_aa48d44a813fa0ff1976faf722c8dfeff}{Sql}} ()
+\begin{DoxyCompactList}\small\item\em Constructeur de la Classe \mbox{\hyperlink{class_data_viewer_1_1_sql}{Sql}} \end{DoxyCompactList}\item 
+List$<$ \mbox{\hyperlink{class_data_viewer_1_1_data}{Data}} $>$ \mbox{\hyperlink{class_data_viewer_1_1_sql_a9d469456df34a3eee34446c44225543c}{charger\+Donnees}} (string req)
+\begin{DoxyCompactList}\small\item\em Permet de charger toutes les données dans une liste de type \mbox{\hyperlink{class_data_viewer_1_1_data}{Data}} \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_data_viewer_1_1_sql_a65c33104bb62fad0612ab6bbbc77fa24}{creation\+Vue}} (string req)
+\begin{DoxyCompactList}\small\item\em Permet d\textquotesingle{}exécuter la requete de création de vue \end{DoxyCompactList}\item 
+List$<$ \mbox{\hyperlink{class_data_viewer_1_1_data}{Data}} $>$ \mbox{\hyperlink{class_data_viewer_1_1_sql_a935dbf7ab0d0927813a2536166b4e745}{stat\+Media}} ()
+\begin{DoxyCompactList}\small\item\em Chercher la moyenne du taux de participation H/F par lib\+Media \end{DoxyCompactList}\item 
+List$<$ \mbox{\hyperlink{class_data_viewer_1_1_data}{Data}} $>$ \mbox{\hyperlink{class_data_viewer_1_1_sql_ac83e5c6550a4479869d14b91797e6bcc}{stat\+Annee}} ()
+\begin{DoxyCompactList}\small\item\em Chercher la moyenne du taux de participation H/F par année \end{DoxyCompactList}\item 
+List$<$ \mbox{\hyperlink{class_data_viewer_1_1_data}{Data}} $>$ \mbox{\hyperlink{class_data_viewer_1_1_sql_af0c45b5df79a957828fe1d74f23608c7}{stat\+Heure}} ()
+\begin{DoxyCompactList}\small\item\em Chercher la moyenne du taux de participation H/F par heure \end{DoxyCompactList}\item 
+List$<$ \mbox{\hyperlink{class_data_viewer_1_1_data}{Data}} $>$ \mbox{\hyperlink{class_data_viewer_1_1_sql_a2ee0ab3dd679df0d1080f3d6a16f5da7}{stat\+Type}} ()
+\begin{DoxyCompactList}\small\item\em Chercher la moyenne du taux de participation H/F par Type Media \end{DoxyCompactList}\item 
+List$<$ \mbox{\hyperlink{class_data_viewer_1_1_data}{Data}} $>$ \mbox{\hyperlink{class_data_viewer_1_1_sql_ac6757b02e0642b40b2213a7ab8482c84}{stat\+Categorie}} ()
+\begin{DoxyCompactList}\small\item\em Chercher la moyenne du taux de participation H/F par Catégorie de Media \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+My\+Sql\+Connection \mbox{\hyperlink{class_data_viewer_1_1_sql_aef47e6d07c937f0a57a88ef644f5d1df}{Cnx}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Getter \& Setter de l\textquotesingle{}attribut cnx \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_data_viewer_1_1_sql_ad2326af80325a4bfd93967e8c735b14a}\label{class_data_viewer_1_1_sql_ad2326af80325a4bfd93967e8c735b14a}} 
+My\+Sql\+Connection {\bfseries cnx}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_data_viewer_1_1_sql_aa48d44a813fa0ff1976faf722c8dfeff}\label{class_data_viewer_1_1_sql_aa48d44a813fa0ff1976faf722c8dfeff}} 
+\index{DataViewer.Sql@{DataViewer.Sql}!Sql@{Sql}}
+\index{Sql@{Sql}!DataViewer.Sql@{DataViewer.Sql}}
+\doxysubsubsection{\texorpdfstring{Sql()}{Sql()}}
+{\footnotesize\ttfamily Data\+Viewer.\+Sql.\+Sql (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Constructeur de la Classe \mbox{\hyperlink{class_data_viewer_1_1_sql}{Sql}} 
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_data_viewer_1_1_sql_a9d469456df34a3eee34446c44225543c}\label{class_data_viewer_1_1_sql_a9d469456df34a3eee34446c44225543c}} 
+\index{DataViewer.Sql@{DataViewer.Sql}!chargerDonnees@{chargerDonnees}}
+\index{chargerDonnees@{chargerDonnees}!DataViewer.Sql@{DataViewer.Sql}}
+\doxysubsubsection{\texorpdfstring{chargerDonnees()}{chargerDonnees()}}
+{\footnotesize\ttfamily List$<$\mbox{\hyperlink{class_data_viewer_1_1_data}{Data}}$>$ Data\+Viewer.\+Sql.\+charger\+Donnees (\begin{DoxyParamCaption}\item[{string}]{req }\end{DoxyParamCaption})}
+
+
+
+Permet de charger toutes les données dans une liste de type \mbox{\hyperlink{class_data_viewer_1_1_data}{Data}} 
+
+
+\begin{DoxyParams}{Parameters}
+{\em req} & Reqête S\+QL qui permet de retourner toutes les données de la B\+DD\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+List d\textquotesingle{}objets de type \mbox{\hyperlink{class_data_viewer_1_1_data}{Data}}
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_data_viewer_1_1_sql_a65c33104bb62fad0612ab6bbbc77fa24}\label{class_data_viewer_1_1_sql_a65c33104bb62fad0612ab6bbbc77fa24}} 
+\index{DataViewer.Sql@{DataViewer.Sql}!creationVue@{creationVue}}
+\index{creationVue@{creationVue}!DataViewer.Sql@{DataViewer.Sql}}
+\doxysubsubsection{\texorpdfstring{creationVue()}{creationVue()}}
+{\footnotesize\ttfamily void Data\+Viewer.\+Sql.\+creation\+Vue (\begin{DoxyParamCaption}\item[{string}]{req }\end{DoxyParamCaption})}
+
+
+
+Permet d\textquotesingle{}exécuter la requete de création de vue 
+
+
+\begin{DoxyParams}{Parameters}
+{\em req} & requete S\+QL\\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_data_viewer_1_1_sql_ac83e5c6550a4479869d14b91797e6bcc}\label{class_data_viewer_1_1_sql_ac83e5c6550a4479869d14b91797e6bcc}} 
+\index{DataViewer.Sql@{DataViewer.Sql}!statAnnee@{statAnnee}}
+\index{statAnnee@{statAnnee}!DataViewer.Sql@{DataViewer.Sql}}
+\doxysubsubsection{\texorpdfstring{statAnnee()}{statAnnee()}}
+{\footnotesize\ttfamily List$<$\mbox{\hyperlink{class_data_viewer_1_1_data}{Data}}$>$ Data\+Viewer.\+Sql.\+stat\+Annee (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Chercher la moyenne du taux de participation H/F par année 
+
+\begin{DoxyReturn}{Returns}
+List d\textquotesingle{}objets de type \mbox{\hyperlink{class_data_viewer_1_1_data}{Data}}
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_data_viewer_1_1_sql_ac6757b02e0642b40b2213a7ab8482c84}\label{class_data_viewer_1_1_sql_ac6757b02e0642b40b2213a7ab8482c84}} 
+\index{DataViewer.Sql@{DataViewer.Sql}!statCategorie@{statCategorie}}
+\index{statCategorie@{statCategorie}!DataViewer.Sql@{DataViewer.Sql}}
+\doxysubsubsection{\texorpdfstring{statCategorie()}{statCategorie()}}
+{\footnotesize\ttfamily List$<$\mbox{\hyperlink{class_data_viewer_1_1_data}{Data}}$>$ Data\+Viewer.\+Sql.\+stat\+Categorie (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Chercher la moyenne du taux de participation H/F par Catégorie de Media 
+
+\begin{DoxyReturn}{Returns}
+List d\textquotesingle{}objets de type \mbox{\hyperlink{class_data_viewer_1_1_data}{Data}}
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_data_viewer_1_1_sql_af0c45b5df79a957828fe1d74f23608c7}\label{class_data_viewer_1_1_sql_af0c45b5df79a957828fe1d74f23608c7}} 
+\index{DataViewer.Sql@{DataViewer.Sql}!statHeure@{statHeure}}
+\index{statHeure@{statHeure}!DataViewer.Sql@{DataViewer.Sql}}
+\doxysubsubsection{\texorpdfstring{statHeure()}{statHeure()}}
+{\footnotesize\ttfamily List$<$\mbox{\hyperlink{class_data_viewer_1_1_data}{Data}}$>$ Data\+Viewer.\+Sql.\+stat\+Heure (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Chercher la moyenne du taux de participation H/F par heure 
+
+\begin{DoxyReturn}{Returns}
+List d\textquotesingle{}objets de type \mbox{\hyperlink{class_data_viewer_1_1_data}{Data}}
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_data_viewer_1_1_sql_a935dbf7ab0d0927813a2536166b4e745}\label{class_data_viewer_1_1_sql_a935dbf7ab0d0927813a2536166b4e745}} 
+\index{DataViewer.Sql@{DataViewer.Sql}!statMedia@{statMedia}}
+\index{statMedia@{statMedia}!DataViewer.Sql@{DataViewer.Sql}}
+\doxysubsubsection{\texorpdfstring{statMedia()}{statMedia()}}
+{\footnotesize\ttfamily List$<$\mbox{\hyperlink{class_data_viewer_1_1_data}{Data}}$>$ Data\+Viewer.\+Sql.\+stat\+Media (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Chercher la moyenne du taux de participation H/F par lib\+Media 
+
+\begin{DoxyReturn}{Returns}
+List d\textquotesingle{}objets de type \mbox{\hyperlink{class_data_viewer_1_1_data}{Data}}
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_data_viewer_1_1_sql_a2ee0ab3dd679df0d1080f3d6a16f5da7}\label{class_data_viewer_1_1_sql_a2ee0ab3dd679df0d1080f3d6a16f5da7}} 
+\index{DataViewer.Sql@{DataViewer.Sql}!statType@{statType}}
+\index{statType@{statType}!DataViewer.Sql@{DataViewer.Sql}}
+\doxysubsubsection{\texorpdfstring{statType()}{statType()}}
+{\footnotesize\ttfamily List$<$\mbox{\hyperlink{class_data_viewer_1_1_data}{Data}}$>$ Data\+Viewer.\+Sql.\+stat\+Type (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Chercher la moyenne du taux de participation H/F par Type Media 
+
+\begin{DoxyReturn}{Returns}
+List d\textquotesingle{}objets de type \mbox{\hyperlink{class_data_viewer_1_1_data}{Data}}
+\end{DoxyReturn}
+
+
+\doxysubsection{Property Documentation}
+\mbox{\Hypertarget{class_data_viewer_1_1_sql_aef47e6d07c937f0a57a88ef644f5d1df}\label{class_data_viewer_1_1_sql_aef47e6d07c937f0a57a88ef644f5d1df}} 
+\index{DataViewer.Sql@{DataViewer.Sql}!Cnx@{Cnx}}
+\index{Cnx@{Cnx}!DataViewer.Sql@{DataViewer.Sql}}
+\doxysubsubsection{\texorpdfstring{Cnx}{Cnx}}
+{\footnotesize\ttfamily My\+Sql\+Connection Data\+Viewer.\+Sql.\+Cnx\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Getter \& Setter de l\textquotesingle{}attribut cnx 
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+Sami/\+Desktop/\+Abir/\+Cours/\+A\+L\+Q/\+Data\+Viewer\+\_\+\+Khemiri\+\_\+\+Tahri\+\_\+\+Du/\+Data\+Viewer/\+Data\+Viewer/sql.\+cs\end{DoxyCompactItemize}

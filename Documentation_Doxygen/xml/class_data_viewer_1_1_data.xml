@@ -1,0 +1,316 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_data_viewer_1_1_data" kind="class" language="C#" prot="public">
+    <compoundname>DataViewer::Data</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_data_viewer_1_1_data_1ad8f8f357a987010b211ef247b5261afc" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string DataViewer.Data.media</definition>
+        <argsstring></argsstring>
+        <name>media</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Data.cs" line="11" column="24" bodyfile="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Data.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_data_viewer_1_1_data_1a24c06f17bf2d57d270ecc220f1c4607f" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string DataViewer.Data.type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Data.cs" line="12" column="24" bodyfile="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Data.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_data_viewer_1_1_data_1a8284713716bf7ef3a07b21991c54bd22" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string DataViewer.Data.categorie</definition>
+        <argsstring></argsstring>
+        <name>categorie</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Data.cs" line="13" column="24" bodyfile="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Data.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_data_viewer_1_1_data_1a9a36b7a0ce8286ee2824bbf2a7c5526b" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int DataViewer.Data.annee</definition>
+        <argsstring></argsstring>
+        <name>annee</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Data.cs" line="14" column="21" bodyfile="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Data.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_data_viewer_1_1_data_1a97d31b1d1e9d4b8ad7f6529757f6226d" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int DataViewer.Data.heure</definition>
+        <argsstring></argsstring>
+        <name>heure</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Data.cs" line="15" column="21" bodyfile="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Data.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_data_viewer_1_1_data_1a97c837476b4d913fa686127cb52fc4e0" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float DataViewer.Data.taux</definition>
+        <argsstring></argsstring>
+        <name>taux</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Data.cs" line="16" column="23" bodyfile="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Data.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_data_viewer_1_1_data_1ad4afcb8e2c3608136c500e3b58ef5854" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string DataViewer.Data.sexe</definition>
+        <argsstring></argsstring>
+        <name>sexe</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Data.cs" line="17" column="24" bodyfile="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Data.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_data_viewer_1_1_data_1aaa4f43d5f2cde9cdd553afc3ec9689e0" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string DataViewer.Data.Media</definition>
+        <argsstring></argsstring>
+        <name>Media</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Data.cs" line="42" column="23" bodyfile="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Data.cs" bodystart="42" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="property" id="class_data_viewer_1_1_data_1acdfed1b6e11846e129f24a0568fa8fce" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string DataViewer.Data.Type</definition>
+        <argsstring></argsstring>
+        <name>Type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Data.cs" line="43" column="23" bodyfile="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Data.cs" bodystart="43" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="property" id="class_data_viewer_1_1_data_1a0a7ffca9ff04d691d880f3e0a3e26221" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string DataViewer.Data.Categorie</definition>
+        <argsstring></argsstring>
+        <name>Categorie</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Data.cs" line="44" column="23" bodyfile="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Data.cs" bodystart="44" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="property" id="class_data_viewer_1_1_data_1a68cb72a01b1cb49785895d5df0d0b441" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int DataViewer.Data.Annee</definition>
+        <argsstring></argsstring>
+        <name>Annee</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Data.cs" line="45" column="20" bodyfile="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Data.cs" bodystart="45" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="property" id="class_data_viewer_1_1_data_1a2a91710083d5509b7c7cbe3e8a692551" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int DataViewer.Data.Heure</definition>
+        <argsstring></argsstring>
+        <name>Heure</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Data.cs" line="46" column="20" bodyfile="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Data.cs" bodystart="46" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="property" id="class_data_viewer_1_1_data_1a6d41e3c0bb3d0a1d10881ab831d489db" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>float</type>
+        <definition>float DataViewer.Data.Taux</definition>
+        <argsstring></argsstring>
+        <name>Taux</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Data.cs" line="47" column="22" bodyfile="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Data.cs" bodystart="47" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="property" id="class_data_viewer_1_1_data_1ab996268a841c9e1dff806d873673ac36" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string DataViewer.Data.Sexe</definition>
+        <argsstring></argsstring>
+        <name>Sexe</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Data.cs" line="48" column="23" bodyfile="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Data.cs" bodystart="48" bodyend="48"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_data_viewer_1_1_data_1acbc7969a5b86fffd5a8decb4eb440c83" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>DataViewer.Data.Data</definition>
+        <argsstring>(string media, string type, string cat, int annee, int heure, float taux, string sexe)</argsstring>
+        <name>Data</name>
+        <param>
+          <type>string</type>
+          <declname>media</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>cat</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>annee</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>heure</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>taux</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>sexe</declname>
+        </param>
+        <briefdescription>
+<para>Constructeur de la Classe <ref refid="class_data_viewer_1_1_data" kindref="compound">Data</ref> </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>media</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Libellé du Media</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>type</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Type du Media : radio ou tv</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>cat</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Catégorie du Media : Privé ou publique</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>annee</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Année du prélèvement </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>heure</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Heure de la journée : min 5 , max 23</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>taux</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Tauxde participation</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>sexe</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Sexe du participant : H/F</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Data.cs" line="30" column="16" bodyfile="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Data.cs" bodystart="30" bodyend="40"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Data.cs" line="10" column="1" bodyfile="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Data.cs" bodystart="9" bodyend="49"/>
+    <listofallmembers>
+      <member refid="class_data_viewer_1_1_data_1a9a36b7a0ce8286ee2824bbf2a7c5526b" prot="private" virt="non-virtual"><scope>DataViewer::Data</scope><name>annee</name></member>
+      <member refid="class_data_viewer_1_1_data_1a68cb72a01b1cb49785895d5df0d0b441" prot="public" virt="non-virtual"><scope>DataViewer::Data</scope><name>Annee</name></member>
+      <member refid="class_data_viewer_1_1_data_1a8284713716bf7ef3a07b21991c54bd22" prot="private" virt="non-virtual"><scope>DataViewer::Data</scope><name>categorie</name></member>
+      <member refid="class_data_viewer_1_1_data_1a0a7ffca9ff04d691d880f3e0a3e26221" prot="public" virt="non-virtual"><scope>DataViewer::Data</scope><name>Categorie</name></member>
+      <member refid="class_data_viewer_1_1_data_1acbc7969a5b86fffd5a8decb4eb440c83" prot="public" virt="non-virtual"><scope>DataViewer::Data</scope><name>Data</name></member>
+      <member refid="class_data_viewer_1_1_data_1a97d31b1d1e9d4b8ad7f6529757f6226d" prot="private" virt="non-virtual"><scope>DataViewer::Data</scope><name>heure</name></member>
+      <member refid="class_data_viewer_1_1_data_1a2a91710083d5509b7c7cbe3e8a692551" prot="public" virt="non-virtual"><scope>DataViewer::Data</scope><name>Heure</name></member>
+      <member refid="class_data_viewer_1_1_data_1aaa4f43d5f2cde9cdd553afc3ec9689e0" prot="public" virt="non-virtual"><scope>DataViewer::Data</scope><name>Media</name></member>
+      <member refid="class_data_viewer_1_1_data_1ad8f8f357a987010b211ef247b5261afc" prot="private" virt="non-virtual"><scope>DataViewer::Data</scope><name>media</name></member>
+      <member refid="class_data_viewer_1_1_data_1ad4afcb8e2c3608136c500e3b58ef5854" prot="private" virt="non-virtual"><scope>DataViewer::Data</scope><name>sexe</name></member>
+      <member refid="class_data_viewer_1_1_data_1ab996268a841c9e1dff806d873673ac36" prot="public" virt="non-virtual"><scope>DataViewer::Data</scope><name>Sexe</name></member>
+      <member refid="class_data_viewer_1_1_data_1a97c837476b4d913fa686127cb52fc4e0" prot="private" virt="non-virtual"><scope>DataViewer::Data</scope><name>taux</name></member>
+      <member refid="class_data_viewer_1_1_data_1a6d41e3c0bb3d0a1d10881ab831d489db" prot="public" virt="non-virtual"><scope>DataViewer::Data</scope><name>Taux</name></member>
+      <member refid="class_data_viewer_1_1_data_1acdfed1b6e11846e129f24a0568fa8fce" prot="public" virt="non-virtual"><scope>DataViewer::Data</scope><name>Type</name></member>
+      <member refid="class_data_viewer_1_1_data_1a24c06f17bf2d57d270ecc220f1c4607f" prot="private" virt="non-virtual"><scope>DataViewer::Data</scope><name>type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

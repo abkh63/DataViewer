@@ -1,0 +1,520 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_data_viewer_1_1_data_viewer" kind="class" language="C#" prot="public">
+    <compoundname>DataViewer::DataViewer</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Form</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_data_viewer_1_1_data_viewer_1a0e50a6856b604d95ec0674a131dec24f" prot="private" static="no" mutable="no">
+        <type><ref refid="class_data_viewer_1_1_fonctions" kindref="compound">Fonctions</ref></type>
+        <definition>Fonctions DataViewer.DataViewer.fonction</definition>
+        <argsstring></argsstring>
+        <name>fonction</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Accueil.cs" line="17" column="27" bodyfile="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Accueil.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_data_viewer_1_1_data_viewer_1a8e6ebd231a7b65b63ab9481163807303" prot="private" static="no" mutable="no">
+        <type><ref refid="class_data_viewer_1_1_sql" kindref="compound">Sql</ref></type>
+        <definition>Sql DataViewer.DataViewer.sql</definition>
+        <argsstring></argsstring>
+        <name>sql</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Accueil.cs" line="18" column="21" bodyfile="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Accueil.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_data_viewer_1_1_data_viewer_1a7f83208d827d2b71c3857fc59b0e68ff" prot="private" static="no" mutable="no">
+        <type>System.ComponentModel.IContainer</type>
+        <definition>System.ComponentModel.IContainer DataViewer.DataViewer.components</definition>
+        <argsstring></argsstring>
+        <name>components</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+<para>Variable nécessaire au concepteur. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Accueil.Designer.cs" line="8" column="48" bodyfile="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Accueil.Designer.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_data_viewer_1_1_data_viewer_1ac04a9976d4ef1d582a7184d1c8354892" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.ListView</type>
+        <definition>System.Windows.Forms.ListView DataViewer.DataViewer.listView1</definition>
+        <argsstring></argsstring>
+        <name>listView1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Accueil.Designer.cs" line="324" column="44" bodyfile="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Accueil.Designer.cs" bodystart="324" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_data_viewer_1_1_data_viewer_1acb14517e6da375e674271e116f1429af" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.ColumnHeader</type>
+        <definition>System.Windows.Forms.ColumnHeader DataViewer.DataViewer.sexe</definition>
+        <argsstring></argsstring>
+        <name>sexe</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Accueil.Designer.cs" line="325" column="48" bodyfile="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Accueil.Designer.cs" bodystart="325" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_data_viewer_1_1_data_viewer_1abb66fda7ccaf09536917f32d1520bd4b" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.ColumnHeader</type>
+        <definition>System.Windows.Forms.ColumnHeader DataViewer.DataViewer.media</definition>
+        <argsstring></argsstring>
+        <name>media</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Accueil.Designer.cs" line="326" column="48" bodyfile="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Accueil.Designer.cs" bodystart="326" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_data_viewer_1_1_data_viewer_1a2b6baf6446b180dfad6671bc825659eb" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.ColumnHeader</type>
+        <definition>System.Windows.Forms.ColumnHeader DataViewer.DataViewer.type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Accueil.Designer.cs" line="327" column="48" bodyfile="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Accueil.Designer.cs" bodystart="327" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_data_viewer_1_1_data_viewer_1afd320aee8ea1ef3a6f046053695a4768" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.ColumnHeader</type>
+        <definition>System.Windows.Forms.ColumnHeader DataViewer.DataViewer.categorie</definition>
+        <argsstring></argsstring>
+        <name>categorie</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Accueil.Designer.cs" line="328" column="48" bodyfile="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Accueil.Designer.cs" bodystart="328" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_data_viewer_1_1_data_viewer_1a7418e3c6e5fd0f8068cc46d3d31f7cd9" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.ColumnHeader</type>
+        <definition>System.Windows.Forms.ColumnHeader DataViewer.DataViewer.annee</definition>
+        <argsstring></argsstring>
+        <name>annee</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Accueil.Designer.cs" line="329" column="48" bodyfile="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Accueil.Designer.cs" bodystart="329" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_data_viewer_1_1_data_viewer_1a90ced1d5dbc6d7d10380ec59d12c2a8a" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.ColumnHeader</type>
+        <definition>System.Windows.Forms.ColumnHeader DataViewer.DataViewer.heure</definition>
+        <argsstring></argsstring>
+        <name>heure</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Accueil.Designer.cs" line="330" column="48" bodyfile="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Accueil.Designer.cs" bodystart="330" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_data_viewer_1_1_data_viewer_1abcca544dbde795faab0919109abf71f8" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.ColumnHeader</type>
+        <definition>System.Windows.Forms.ColumnHeader DataViewer.DataViewer.taux</definition>
+        <argsstring></argsstring>
+        <name>taux</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Accueil.Designer.cs" line="331" column="48" bodyfile="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Accueil.Designer.cs" bodystart="331" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_data_viewer_1_1_data_viewer_1a68e637aa49142720f9656cb34823ab9d" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.TabControl</type>
+        <definition>System.Windows.Forms.TabControl DataViewer.DataViewer.Onglets</definition>
+        <argsstring></argsstring>
+        <name>Onglets</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Accueil.Designer.cs" line="332" column="46" bodyfile="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Accueil.Designer.cs" bodystart="332" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_data_viewer_1_1_data_viewer_1a50f4fa97ca583d3957873a6c77f38c03" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.TabPage</type>
+        <definition>System.Windows.Forms.TabPage DataViewer.DataViewer.tabPage1</definition>
+        <argsstring></argsstring>
+        <name>tabPage1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Accueil.Designer.cs" line="333" column="43" bodyfile="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Accueil.Designer.cs" bodystart="333" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_data_viewer_1_1_data_viewer_1a45e27317db4bfcf2fd15b0f1186f5036" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.TabPage</type>
+        <definition>System.Windows.Forms.TabPage DataViewer.DataViewer.tabPage2</definition>
+        <argsstring></argsstring>
+        <name>tabPage2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Accueil.Designer.cs" line="334" column="43" bodyfile="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Accueil.Designer.cs" bodystart="334" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_data_viewer_1_1_data_viewer_1a4665129257473bb1675a72626235eb97" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Button</type>
+        <definition>System.Windows.Forms.Button DataViewer.DataViewer.visualiser</definition>
+        <argsstring></argsstring>
+        <name>visualiser</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Accueil.Designer.cs" line="335" column="42" bodyfile="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Accueil.Designer.cs" bodystart="335" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_data_viewer_1_1_data_viewer_1a4f13442bfbd40b9604321b7ac2196593" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label DataViewer.DataViewer.label2</definition>
+        <argsstring></argsstring>
+        <name>label2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Accueil.Designer.cs" line="336" column="41" bodyfile="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Accueil.Designer.cs" bodystart="336" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_data_viewer_1_1_data_viewer_1af982b69754816104ecfceffedf9767f4" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.CheckedListBox</type>
+        <definition>System.Windows.Forms.CheckedListBox DataViewer.DataViewer.ck_box_heure</definition>
+        <argsstring></argsstring>
+        <name>ck_box_heure</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Accueil.Designer.cs" line="337" column="50" bodyfile="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Accueil.Designer.cs" bodystart="337" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_data_viewer_1_1_data_viewer_1af5015dd2a6a4f460f77c757864bf6c5f" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.CheckedListBox</type>
+        <definition>System.Windows.Forms.CheckedListBox DataViewer.DataViewer.ck_box_media</definition>
+        <argsstring></argsstring>
+        <name>ck_box_media</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Accueil.Designer.cs" line="338" column="50" bodyfile="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Accueil.Designer.cs" bodystart="338" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_data_viewer_1_1_data_viewer_1a0e9850297cb6e8bb0b0408b018d475d2" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.CheckedListBox</type>
+        <definition>System.Windows.Forms.CheckedListBox DataViewer.DataViewer.ck_box_annee</definition>
+        <argsstring></argsstring>
+        <name>ck_box_annee</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Accueil.Designer.cs" line="339" column="50" bodyfile="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Accueil.Designer.cs" bodystart="339" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_data_viewer_1_1_data_viewer_1a7c01b3ca3245419013105a0afa346697" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label DataViewer.DataViewer.label3</definition>
+        <argsstring></argsstring>
+        <name>label3</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Accueil.Designer.cs" line="340" column="41" bodyfile="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Accueil.Designer.cs" bodystart="340" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_data_viewer_1_1_data_viewer_1ad327734f4e768e7576b9d4395b22c0d1" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.CheckedListBox</type>
+        <definition>System.Windows.Forms.CheckedListBox DataViewer.DataViewer.ck_box_media_categorie</definition>
+        <argsstring></argsstring>
+        <name>ck_box_media_categorie</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Accueil.Designer.cs" line="341" column="50" bodyfile="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Accueil.Designer.cs" bodystart="341" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_data_viewer_1_1_data_viewer_1a06f32f9ca70bb3c7bf7374be45150c51" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.CheckedListBox</type>
+        <definition>System.Windows.Forms.CheckedListBox DataViewer.DataViewer.ck_box_media_type</definition>
+        <argsstring></argsstring>
+        <name>ck_box_media_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Accueil.Designer.cs" line="342" column="50" bodyfile="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Accueil.Designer.cs" bodystart="342" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_data_viewer_1_1_data_viewer_1a273657a1d90eede64109dec192f4b198" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label DataViewer.DataViewer.label6</definition>
+        <argsstring></argsstring>
+        <name>label6</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Accueil.Designer.cs" line="343" column="41" bodyfile="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Accueil.Designer.cs" bodystart="343" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_data_viewer_1_1_data_viewer_1a08e80fb396fb420c38b224aeeebf431b" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label DataViewer.DataViewer.label5</definition>
+        <argsstring></argsstring>
+        <name>label5</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Accueil.Designer.cs" line="344" column="41" bodyfile="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Accueil.Designer.cs" bodystart="344" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_data_viewer_1_1_data_viewer_1a6cb0c277995ad99057872decc25f9229" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label DataViewer.DataViewer.label4</definition>
+        <argsstring></argsstring>
+        <name>label4</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Accueil.Designer.cs" line="345" column="41" bodyfile="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Accueil.Designer.cs" bodystart="345" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_data_viewer_1_1_data_viewer_1a2b27755241bf4b3c4303cc5b27a084d7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>DataViewer.DataViewer.DataViewer</definition>
+        <argsstring>()</argsstring>
+        <name>DataViewer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Accueil.cs" line="20" column="16" bodyfile="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Accueil.cs" bodystart="20" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="class_data_viewer_1_1_data_viewer_1a882fe884e7b1fc63b3af6cbbaaa356b4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DataViewer.DataViewer.chargerData</definition>
+        <argsstring>()</argsstring>
+        <name>chargerData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Accueil.cs" line="30" column="21" bodyfile="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Accueil.cs" bodystart="30" bodyend="54"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_data_viewer_1_1_data_viewer_1a4a9e37cd47b15866d0cce2378f8e538a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DataViewer.DataViewer.Visualiser_Click</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>Visualiser_Click</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Accueil.cs" line="58" column="22" bodyfile="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Accueil.cs" bodystart="58" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="function" id="class_data_viewer_1_1_data_viewer_1a14151da3a10d64e015cbcbfdd82bb969" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DataViewer.DataViewer.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <briefdescription>
+<para>Méthode requise pour la prise en charge du concepteur - ne modifiez pas le contenu de cette méthode avec l&apos;éditeur de code. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Accueil.Designer.cs" line="29" column="22" bodyfile="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Accueil.Designer.cs" bodystart="29" bodyend="320"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_data_viewer_1_1_data_viewer_1a209d779e6d34a2830799eb6867a2e205" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void DataViewer.DataViewer.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+<para>Nettoyage des ressources utilisées. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>disposing</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true si les ressources managées doivent être supprimées<nonbreakablespace/>; sinon, false.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Accueil.Designer.cs" line="14" column="33" bodyfile="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Accueil.Designer.cs" bodystart="14" bodyend="21"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Form</label>
+      </node>
+      <node id="1">
+        <label>DataViewer.DataViewer</label>
+        <link refid="class_data_viewer_1_1_data_viewer"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>DataViewer.Sql</label>
+        <link refid="class_data_viewer_1_1_sql"/>
+      </node>
+      <node id="2">
+        <label>Form</label>
+      </node>
+      <node id="4">
+        <label>DataViewer.Fonctions</label>
+        <link refid="class_data_viewer_1_1_fonctions"/>
+      </node>
+      <node id="5">
+        <label>System</label>
+      </node>
+      <node id="1">
+        <label>DataViewer.DataViewer</label>
+        <link refid="class_data_viewer_1_1_data_viewer"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>sql</edgelabel>
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>fonction</edgelabel>
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>visualiser</edgelabel>
+          <edgelabel>taux</edgelabel>
+          <edgelabel>sexe</edgelabel>
+          <edgelabel>label2</edgelabel>
+          <edgelabel>label3</edgelabel>
+          <edgelabel>label4</edgelabel>
+          <edgelabel>label5</edgelabel>
+          <edgelabel>ck_box_media_categorie</edgelabel>
+          <edgelabel>heure</edgelabel>
+          <edgelabel>label6</edgelabel>
+          <edgelabel>...</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Accueil.cs" line="16" column="1" bodyfile="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Accueil.cs" bodystart="15" bodyend="78"/>
+    <listofallmembers>
+      <member refid="class_data_viewer_1_1_data_viewer_1a7418e3c6e5fd0f8068cc46d3d31f7cd9" prot="private" virt="non-virtual"><scope>DataViewer::DataViewer</scope><name>annee</name></member>
+      <member refid="class_data_viewer_1_1_data_viewer_1afd320aee8ea1ef3a6f046053695a4768" prot="private" virt="non-virtual"><scope>DataViewer::DataViewer</scope><name>categorie</name></member>
+      <member refid="class_data_viewer_1_1_data_viewer_1a882fe884e7b1fc63b3af6cbbaaa356b4" prot="public" virt="non-virtual"><scope>DataViewer::DataViewer</scope><name>chargerData</name></member>
+      <member refid="class_data_viewer_1_1_data_viewer_1a0e9850297cb6e8bb0b0408b018d475d2" prot="private" virt="non-virtual"><scope>DataViewer::DataViewer</scope><name>ck_box_annee</name></member>
+      <member refid="class_data_viewer_1_1_data_viewer_1af982b69754816104ecfceffedf9767f4" prot="private" virt="non-virtual"><scope>DataViewer::DataViewer</scope><name>ck_box_heure</name></member>
+      <member refid="class_data_viewer_1_1_data_viewer_1af5015dd2a6a4f460f77c757864bf6c5f" prot="private" virt="non-virtual"><scope>DataViewer::DataViewer</scope><name>ck_box_media</name></member>
+      <member refid="class_data_viewer_1_1_data_viewer_1ad327734f4e768e7576b9d4395b22c0d1" prot="private" virt="non-virtual"><scope>DataViewer::DataViewer</scope><name>ck_box_media_categorie</name></member>
+      <member refid="class_data_viewer_1_1_data_viewer_1a06f32f9ca70bb3c7bf7374be45150c51" prot="private" virt="non-virtual"><scope>DataViewer::DataViewer</scope><name>ck_box_media_type</name></member>
+      <member refid="class_data_viewer_1_1_data_viewer_1a7f83208d827d2b71c3857fc59b0e68ff" prot="private" virt="non-virtual"><scope>DataViewer::DataViewer</scope><name>components</name></member>
+      <member refid="class_data_viewer_1_1_data_viewer_1a2b27755241bf4b3c4303cc5b27a084d7" prot="public" virt="non-virtual"><scope>DataViewer::DataViewer</scope><name>DataViewer</name></member>
+      <member refid="class_data_viewer_1_1_data_viewer_1a209d779e6d34a2830799eb6867a2e205" prot="protected" virt="non-virtual"><scope>DataViewer::DataViewer</scope><name>Dispose</name></member>
+      <member refid="class_data_viewer_1_1_data_viewer_1a0e50a6856b604d95ec0674a131dec24f" prot="private" virt="non-virtual"><scope>DataViewer::DataViewer</scope><name>fonction</name></member>
+      <member refid="class_data_viewer_1_1_data_viewer_1a90ced1d5dbc6d7d10380ec59d12c2a8a" prot="private" virt="non-virtual"><scope>DataViewer::DataViewer</scope><name>heure</name></member>
+      <member refid="class_data_viewer_1_1_data_viewer_1a14151da3a10d64e015cbcbfdd82bb969" prot="private" virt="non-virtual"><scope>DataViewer::DataViewer</scope><name>InitializeComponent</name></member>
+      <member refid="class_data_viewer_1_1_data_viewer_1a4f13442bfbd40b9604321b7ac2196593" prot="private" virt="non-virtual"><scope>DataViewer::DataViewer</scope><name>label2</name></member>
+      <member refid="class_data_viewer_1_1_data_viewer_1a7c01b3ca3245419013105a0afa346697" prot="private" virt="non-virtual"><scope>DataViewer::DataViewer</scope><name>label3</name></member>
+      <member refid="class_data_viewer_1_1_data_viewer_1a6cb0c277995ad99057872decc25f9229" prot="private" virt="non-virtual"><scope>DataViewer::DataViewer</scope><name>label4</name></member>
+      <member refid="class_data_viewer_1_1_data_viewer_1a08e80fb396fb420c38b224aeeebf431b" prot="private" virt="non-virtual"><scope>DataViewer::DataViewer</scope><name>label5</name></member>
+      <member refid="class_data_viewer_1_1_data_viewer_1a273657a1d90eede64109dec192f4b198" prot="private" virt="non-virtual"><scope>DataViewer::DataViewer</scope><name>label6</name></member>
+      <member refid="class_data_viewer_1_1_data_viewer_1ac04a9976d4ef1d582a7184d1c8354892" prot="private" virt="non-virtual"><scope>DataViewer::DataViewer</scope><name>listView1</name></member>
+      <member refid="class_data_viewer_1_1_data_viewer_1abb66fda7ccaf09536917f32d1520bd4b" prot="private" virt="non-virtual"><scope>DataViewer::DataViewer</scope><name>media</name></member>
+      <member refid="class_data_viewer_1_1_data_viewer_1a68e637aa49142720f9656cb34823ab9d" prot="private" virt="non-virtual"><scope>DataViewer::DataViewer</scope><name>Onglets</name></member>
+      <member refid="class_data_viewer_1_1_data_viewer_1acb14517e6da375e674271e116f1429af" prot="private" virt="non-virtual"><scope>DataViewer::DataViewer</scope><name>sexe</name></member>
+      <member refid="class_data_viewer_1_1_data_viewer_1a8e6ebd231a7b65b63ab9481163807303" prot="private" virt="non-virtual"><scope>DataViewer::DataViewer</scope><name>sql</name></member>
+      <member refid="class_data_viewer_1_1_data_viewer_1a50f4fa97ca583d3957873a6c77f38c03" prot="private" virt="non-virtual"><scope>DataViewer::DataViewer</scope><name>tabPage1</name></member>
+      <member refid="class_data_viewer_1_1_data_viewer_1a45e27317db4bfcf2fd15b0f1186f5036" prot="private" virt="non-virtual"><scope>DataViewer::DataViewer</scope><name>tabPage2</name></member>
+      <member refid="class_data_viewer_1_1_data_viewer_1abcca544dbde795faab0919109abf71f8" prot="private" virt="non-virtual"><scope>DataViewer::DataViewer</scope><name>taux</name></member>
+      <member refid="class_data_viewer_1_1_data_viewer_1a2b6baf6446b180dfad6671bc825659eb" prot="private" virt="non-virtual"><scope>DataViewer::DataViewer</scope><name>type</name></member>
+      <member refid="class_data_viewer_1_1_data_viewer_1a4665129257473bb1675a72626235eb97" prot="private" virt="non-virtual"><scope>DataViewer::DataViewer</scope><name>visualiser</name></member>
+      <member refid="class_data_viewer_1_1_data_viewer_1a4a9e37cd47b15866d0cce2378f8e538a" prot="private" virt="non-virtual"><scope>DataViewer::DataViewer</scope><name>Visualiser_Click</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

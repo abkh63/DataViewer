@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="namespace_data_viewer" kind="namespace" language="C#">
+    <compoundname>DataViewer</compoundname>
+    <innerclass refid="class_data_viewer_1_1_data" prot="public">DataViewer::Data</innerclass>
+    <innerclass refid="class_data_viewer_1_1_data_viewer" prot="public">DataViewer::DataViewer</innerclass>
+    <innerclass refid="class_data_viewer_1_1_fonctions" prot="public">DataViewer::Fonctions</innerclass>
+    <innerclass refid="class_data_viewer_1_1_frm___visualizer" prot="public">DataViewer::Frm_Visualizer</innerclass>
+    <innerclass refid="class_data_viewer_1_1_program" prot="public">DataViewer::Program</innerclass>
+    <innerclass refid="class_data_viewer_1_1_sql" prot="public">DataViewer::Sql</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Data.cs" line="8" column="1"/>
+  </compounddef>
+</doxygen>

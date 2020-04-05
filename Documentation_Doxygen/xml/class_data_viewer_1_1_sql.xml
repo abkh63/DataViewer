@@ -1,0 +1,213 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_data_viewer_1_1_sql" kind="class" language="C#" prot="public">
+    <compoundname>DataViewer::Sql</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_data_viewer_1_1_sql_1ad2326af80325a4bfd93967e8c735b14a" prot="private" static="no" mutable="no">
+        <type>MySqlConnection</type>
+        <definition>MySqlConnection DataViewer.Sql.cnx</definition>
+        <argsstring></argsstring>
+        <name>cnx</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/sql.cs" line="16" column="33" bodyfile="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/sql.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_data_viewer_1_1_sql_1aef47e6d07c937f0a57a88ef644f5d1df" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>MySqlConnection</type>
+        <definition>MySqlConnection DataViewer.Sql.Cnx</definition>
+        <argsstring></argsstring>
+        <name>Cnx</name>
+        <briefdescription>
+<para>Getter &amp; Setter de l&apos;attribut cnx </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/sql.cs" line="30" column="32" bodyfile="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/sql.cs" bodystart="30" bodyend="30"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_data_viewer_1_1_sql_1aa48d44a813fa0ff1976faf722c8dfeff" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>DataViewer.Sql.Sql</definition>
+        <argsstring>()</argsstring>
+        <name>Sql</name>
+        <briefdescription>
+<para>Constructeur de la Classe <ref refid="class_data_viewer_1_1_sql" kindref="compound">Sql</ref> </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/sql.cs" line="20" column="16" bodyfile="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/sql.cs" bodystart="20" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="class_data_viewer_1_1_sql_1a9d469456df34a3eee34446c44225543c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="class_data_viewer_1_1_data" kindref="compound">Data</ref> &gt;</type>
+        <definition>List&lt;Data&gt; DataViewer.Sql.chargerDonnees</definition>
+        <argsstring>(string req)</argsstring>
+        <name>chargerDonnees</name>
+        <param>
+          <type>string</type>
+          <declname>req</declname>
+        </param>
+        <briefdescription>
+<para>Permet de charger toutes les données dans une liste de type <ref refid="class_data_viewer_1_1_data" kindref="compound">Data</ref> </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>req</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Reqête SQL qui permet de retourner toutes les données de la BDD</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>List d&apos;objets de type <ref refid="class_data_viewer_1_1_data" kindref="compound">Data</ref></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/sql.cs" line="38" column="21" bodyfile="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/sql.cs" bodystart="38" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="class_data_viewer_1_1_sql_1a65c33104bb62fad0612ab6bbbc77fa24" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DataViewer.Sql.creationVue</definition>
+        <argsstring>(string req)</argsstring>
+        <name>creationVue</name>
+        <param>
+          <type>string</type>
+          <declname>req</declname>
+        </param>
+        <briefdescription>
+<para>Permet d&apos;exécuter la requete de création de vue </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>req</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>requete SQL</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/sql.cs" line="72" column="21" bodyfile="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/sql.cs" bodystart="72" bodyend="83"/>
+      </memberdef>
+      <memberdef kind="function" id="class_data_viewer_1_1_sql_1a935dbf7ab0d0927813a2536166b4e745" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="class_data_viewer_1_1_data" kindref="compound">Data</ref> &gt;</type>
+        <definition>List&lt;Data&gt; DataViewer.Sql.statMedia</definition>
+        <argsstring>()</argsstring>
+        <name>statMedia</name>
+        <briefdescription>
+<para>Chercher la moyenne du taux de participation H/F par libMedia </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>List d&apos;objets de type <ref refid="class_data_viewer_1_1_data" kindref="compound">Data</ref></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/sql.cs" line="89" column="21" bodyfile="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/sql.cs" bodystart="89" bodyend="116"/>
+      </memberdef>
+      <memberdef kind="function" id="class_data_viewer_1_1_sql_1ac83e5c6550a4479869d14b91797e6bcc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="class_data_viewer_1_1_data" kindref="compound">Data</ref> &gt;</type>
+        <definition>List&lt;Data&gt; DataViewer.Sql.statAnnee</definition>
+        <argsstring>()</argsstring>
+        <name>statAnnee</name>
+        <briefdescription>
+<para>Chercher la moyenne du taux de participation H/F par année </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>List d&apos;objets de type <ref refid="class_data_viewer_1_1_data" kindref="compound">Data</ref></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/sql.cs" line="122" column="21" bodyfile="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/sql.cs" bodystart="122" bodyend="147"/>
+      </memberdef>
+      <memberdef kind="function" id="class_data_viewer_1_1_sql_1af0c45b5df79a957828fe1d74f23608c7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="class_data_viewer_1_1_data" kindref="compound">Data</ref> &gt;</type>
+        <definition>List&lt;Data&gt; DataViewer.Sql.statHeure</definition>
+        <argsstring>()</argsstring>
+        <name>statHeure</name>
+        <briefdescription>
+<para>Chercher la moyenne du taux de participation H/F par heure </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>List d&apos;objets de type <ref refid="class_data_viewer_1_1_data" kindref="compound">Data</ref></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/sql.cs" line="153" column="21" bodyfile="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/sql.cs" bodystart="153" bodyend="179"/>
+      </memberdef>
+      <memberdef kind="function" id="class_data_viewer_1_1_sql_1a2ee0ab3dd679df0d1080f3d6a16f5da7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="class_data_viewer_1_1_data" kindref="compound">Data</ref> &gt;</type>
+        <definition>List&lt;Data&gt; DataViewer.Sql.statType</definition>
+        <argsstring>()</argsstring>
+        <name>statType</name>
+        <briefdescription>
+<para>Chercher la moyenne du taux de participation H/F par Type Media </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>List d&apos;objets de type <ref refid="class_data_viewer_1_1_data" kindref="compound">Data</ref></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/sql.cs" line="185" column="21" bodyfile="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/sql.cs" bodystart="185" bodyend="210"/>
+      </memberdef>
+      <memberdef kind="function" id="class_data_viewer_1_1_sql_1ac6757b02e0642b40b2213a7ab8482c84" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="class_data_viewer_1_1_data" kindref="compound">Data</ref> &gt;</type>
+        <definition>List&lt;Data&gt; DataViewer.Sql.statCategorie</definition>
+        <argsstring>()</argsstring>
+        <name>statCategorie</name>
+        <briefdescription>
+<para>Chercher la moyenne du taux de participation H/F par Catégorie de Media </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>List d&apos;objets de type <ref refid="class_data_viewer_1_1_data" kindref="compound">Data</ref></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/sql.cs" line="216" column="21" bodyfile="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/sql.cs" bodystart="216" bodyend="241"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/sql.cs" line="15" column="1" bodyfile="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/sql.cs" bodystart="13" bodyend="243"/>
+    <listofallmembers>
+      <member refid="class_data_viewer_1_1_sql_1a9d469456df34a3eee34446c44225543c" prot="public" virt="non-virtual"><scope>DataViewer::Sql</scope><name>chargerDonnees</name></member>
+      <member refid="class_data_viewer_1_1_sql_1ad2326af80325a4bfd93967e8c735b14a" prot="private" virt="non-virtual"><scope>DataViewer::Sql</scope><name>cnx</name></member>
+      <member refid="class_data_viewer_1_1_sql_1aef47e6d07c937f0a57a88ef644f5d1df" prot="public" virt="non-virtual"><scope>DataViewer::Sql</scope><name>Cnx</name></member>
+      <member refid="class_data_viewer_1_1_sql_1a65c33104bb62fad0612ab6bbbc77fa24" prot="public" virt="non-virtual"><scope>DataViewer::Sql</scope><name>creationVue</name></member>
+      <member refid="class_data_viewer_1_1_sql_1aa48d44a813fa0ff1976faf722c8dfeff" prot="public" virt="non-virtual"><scope>DataViewer::Sql</scope><name>Sql</name></member>
+      <member refid="class_data_viewer_1_1_sql_1ac83e5c6550a4479869d14b91797e6bcc" prot="public" virt="non-virtual"><scope>DataViewer::Sql</scope><name>statAnnee</name></member>
+      <member refid="class_data_viewer_1_1_sql_1ac6757b02e0642b40b2213a7ab8482c84" prot="public" virt="non-virtual"><scope>DataViewer::Sql</scope><name>statCategorie</name></member>
+      <member refid="class_data_viewer_1_1_sql_1af0c45b5df79a957828fe1d74f23608c7" prot="public" virt="non-virtual"><scope>DataViewer::Sql</scope><name>statHeure</name></member>
+      <member refid="class_data_viewer_1_1_sql_1a935dbf7ab0d0927813a2536166b4e745" prot="public" virt="non-virtual"><scope>DataViewer::Sql</scope><name>statMedia</name></member>
+      <member refid="class_data_viewer_1_1_sql_1a2ee0ab3dd679df0d1080f3d6a16f5da7" prot="public" virt="non-virtual"><scope>DataViewer::Sql</scope><name>statType</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

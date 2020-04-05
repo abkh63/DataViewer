@@ -1,0 +1,457 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_data_viewer_1_1_fonctions" kind="class" language="C#" prot="public">
+    <compoundname>DataViewer::Fonctions</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_data_viewer_1_1_fonctions_1a51f85c70be7e649da3eaf7e55a9bdd36" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DataViewer.Fonctions.afficherDonnees</definition>
+        <argsstring>(List&lt; Data &gt; result, ListView listView)</argsstring>
+        <name>afficherDonnees</name>
+        <param>
+          <type>List&lt; <ref refid="class_data_viewer_1_1_data" kindref="compound">Data</ref> &gt;</type>
+          <declname>result</declname>
+        </param>
+        <param>
+          <type>ListView</type>
+          <declname>listView</declname>
+        </param>
+        <briefdescription>
+<para>Afficher une liste d&apos;ibjets de type <ref refid="class_data_viewer_1_1_data" kindref="compound">Data</ref> dans une ListView </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>result</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Liste d&apos;objets à afficher</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>listView</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Contrôle WinForm</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Fonctions.cs" line="17" column="21" bodyfile="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Fonctions.cs" bodystart="17" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="class_data_viewer_1_1_fonctions_1ac6f74468e6943599b7cae06c5a1e3c21" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DataViewer.Fonctions.afficherTableHeures</definition>
+        <argsstring>(List&lt; Data &gt; listData, CheckedListBox clk)</argsstring>
+        <name>afficherTableHeures</name>
+        <param>
+          <type>List&lt; <ref refid="class_data_viewer_1_1_data" kindref="compound">Data</ref> &gt;</type>
+          <declname>listData</declname>
+        </param>
+        <param>
+          <type>CheckedListBox</type>
+          <declname>clk</declname>
+        </param>
+        <briefdescription>
+<para>Afficher la liste des Heures dans une CheckedListBox </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>listData</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Liste d&apos;objets de type <ref refid="class_data_viewer_1_1_data" kindref="compound">Data</ref> contenant les éléments à afficher</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>clk</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Contrôle WinForm</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Fonctions.cs" line="44" column="21" bodyfile="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Fonctions.cs" bodystart="44" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="class_data_viewer_1_1_fonctions_1ace421aadde5264bd32311625aaf92737" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DataViewer.Fonctions.afficherTableAnnees</definition>
+        <argsstring>(List&lt; Data &gt; listData, CheckedListBox clk)</argsstring>
+        <name>afficherTableAnnees</name>
+        <param>
+          <type>List&lt; <ref refid="class_data_viewer_1_1_data" kindref="compound">Data</ref> &gt;</type>
+          <declname>listData</declname>
+        </param>
+        <param>
+          <type>CheckedListBox</type>
+          <declname>clk</declname>
+        </param>
+        <briefdescription>
+<para>Afficher la liste des Année dans une CheckedListBox </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>listData</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Liste d&apos;objets de type <ref refid="class_data_viewer_1_1_data" kindref="compound">Data</ref> contenant les éléments à afficher</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>clk</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Contrôle WinForm</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Fonctions.cs" line="66" column="21" bodyfile="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Fonctions.cs" bodystart="66" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="function" id="class_data_viewer_1_1_fonctions_1a9415f9d12eeccbf8804fcd3834606ba2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DataViewer.Fonctions.afficherTableMedia</definition>
+        <argsstring>(List&lt; Data &gt; listData, CheckedListBox clk)</argsstring>
+        <name>afficherTableMedia</name>
+        <param>
+          <type>List&lt; <ref refid="class_data_viewer_1_1_data" kindref="compound">Data</ref> &gt;</type>
+          <declname>listData</declname>
+        </param>
+        <param>
+          <type>CheckedListBox</type>
+          <declname>clk</declname>
+        </param>
+        <briefdescription>
+<para>Afficher la liste des Libellé Media dans une CheckedListBox </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>listData</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Liste d&apos;objets de type <ref refid="class_data_viewer_1_1_data" kindref="compound">Data</ref> contenant les éléments à afficher</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>clk</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Contrôle WinForm</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Fonctions.cs" line="88" column="21" bodyfile="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Fonctions.cs" bodystart="88" bodyend="103"/>
+      </memberdef>
+      <memberdef kind="function" id="class_data_viewer_1_1_fonctions_1aca814c09f61503857b47e6fc6d642a77" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DataViewer.Fonctions.afficherTableType</definition>
+        <argsstring>(List&lt; Data &gt; listData, CheckedListBox clk)</argsstring>
+        <name>afficherTableType</name>
+        <param>
+          <type>List&lt; <ref refid="class_data_viewer_1_1_data" kindref="compound">Data</ref> &gt;</type>
+          <declname>listData</declname>
+        </param>
+        <param>
+          <type>CheckedListBox</type>
+          <declname>clk</declname>
+        </param>
+        <briefdescription>
+<para>Afficher la liste des Type Media dans une CheckedListBox </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>listData</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Liste d&apos;objets de type <ref refid="class_data_viewer_1_1_data" kindref="compound">Data</ref> contenant les éléments à afficher</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>clk</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Contrôle WinForm</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Fonctions.cs" line="110" column="21" bodyfile="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Fonctions.cs" bodystart="110" bodyend="125"/>
+      </memberdef>
+      <memberdef kind="function" id="class_data_viewer_1_1_fonctions_1a1293cb21de1a326fe9d5252517bc3587" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DataViewer.Fonctions.afficherTableCategorie</definition>
+        <argsstring>(List&lt; Data &gt; listData, CheckedListBox clk)</argsstring>
+        <name>afficherTableCategorie</name>
+        <param>
+          <type>List&lt; <ref refid="class_data_viewer_1_1_data" kindref="compound">Data</ref> &gt;</type>
+          <declname>listData</declname>
+        </param>
+        <param>
+          <type>CheckedListBox</type>
+          <declname>clk</declname>
+        </param>
+        <briefdescription>
+<para>Afficher la liste des Categories Media dans une CheckedListBox </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>listData</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Liste d&apos;objets de type <ref refid="class_data_viewer_1_1_data" kindref="compound">Data</ref> contenant les éléments à afficher</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>clk</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Contrôle WinForm</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Fonctions.cs" line="132" column="21" bodyfile="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Fonctions.cs" bodystart="132" bodyend="150"/>
+      </memberdef>
+      <memberdef kind="function" id="class_data_viewer_1_1_fonctions_1a9f4fae2afa69aa7f89999df5473a01e6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string DataViewer.Fonctions.ckBoxToString</definition>
+        <argsstring>(CheckedListBox ckBox, string attribut)</argsstring>
+        <name>ckBoxToString</name>
+        <param>
+          <type>CheckedListBox</type>
+          <declname>ckBox</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>attribut</declname>
+        </param>
+        <briefdescription>
+<para>Transformer les items (string) d&apos;une CheckedLisBox sélectionnées en une chaines de caractère </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ckBox</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Contrôle WinForm</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>attribut</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>L&apos;attribut à filtrer</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>chaine de caractères</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Fonctions.cs" line="158" column="23" bodyfile="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Fonctions.cs" bodystart="158" bodyend="177"/>
+      </memberdef>
+      <memberdef kind="function" id="class_data_viewer_1_1_fonctions_1adc0ddaf6f25c2763364194251f2dcd51" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string DataViewer.Fonctions.ckBoxToInt</definition>
+        <argsstring>(CheckedListBox ckBox, string attribut)</argsstring>
+        <name>ckBoxToInt</name>
+        <param>
+          <type>CheckedListBox</type>
+          <declname>ckBox</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>attribut</declname>
+        </param>
+        <briefdescription>
+<para>Transformer les items (int) d&apos;une CheckedLisBox sélectionnées en une chaines de caractère </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ckBox</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Contrôle WinForm</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>attribut</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>L&apos;attribut à filtrer</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Chaine de caractères</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Fonctions.cs" line="185" column="23" bodyfile="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Fonctions.cs" bodystart="185" bodyend="202"/>
+      </memberdef>
+      <memberdef kind="function" id="class_data_viewer_1_1_fonctions_1a1f97f2450092d87f5af3f847612b2cfd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string DataViewer.Fonctions.requeteParametree</definition>
+        <argsstring>(CheckedListBox ck_box_media, CheckedListBox ck_box_annee, CheckedListBox ck_box_heure, CheckedListBox ck_box_media_type, CheckedListBox ck_box_media_categorie)</argsstring>
+        <name>requeteParametree</name>
+        <param>
+          <type>CheckedListBox</type>
+          <declname>ck_box_media</declname>
+        </param>
+        <param>
+          <type>CheckedListBox</type>
+          <declname>ck_box_annee</declname>
+        </param>
+        <param>
+          <type>CheckedListBox</type>
+          <declname>ck_box_heure</declname>
+        </param>
+        <param>
+          <type>CheckedListBox</type>
+          <declname>ck_box_media_type</declname>
+        </param>
+        <param>
+          <type>CheckedListBox</type>
+          <declname>ck_box_media_categorie</declname>
+        </param>
+        <briefdescription>
+<para>Construction d&apos;une requete SQL paramétrée </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ck_box_media</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Contrôle WinForm contenant les Media sélectionnée par l&apos;utilisateur</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>ck_box_annee</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Contrôle WinForm contenant les années sélectionnée par l&apos;utilisateur</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>ck_box_heure</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Contrôle WinForm contenant les heures sélectionnée par l&apos;utilisateur</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>ck_box_media_type</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Contrôle WinForm contenant les Type Media sélectionnée par l&apos;utilisateur</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>ck_box_media_categorie</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Contrôle WinForm contenant les Categories Media sélectionnée par l&apos;utilisateur</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>chaine de caractère : requête SQL pâramétrée</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Fonctions.cs" line="213" column="23" bodyfile="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Fonctions.cs" bodystart="213" bodyend="238"/>
+      </memberdef>
+      <memberdef kind="function" id="class_data_viewer_1_1_fonctions_1a4810d2dbcb5e65515011b6865454231e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string DataViewer.Fonctions.requeteVue</definition>
+        <argsstring>(string req)</argsstring>
+        <name>requeteVue</name>
+        <param>
+          <type>string</type>
+          <declname>req</declname>
+        </param>
+        <briefdescription>
+<para>construction de la requete de création de vue </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>req</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>requetes SQL (Select) paramétrée</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>chaine de caractère : requête SQL de création de vue</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Fonctions.cs" line="245" column="23" bodyfile="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Fonctions.cs" bodystart="245" bodyend="250"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Fonctions.cs" line="11" column="1" bodyfile="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Fonctions.cs" bodystart="10" bodyend="253"/>
+    <listofallmembers>
+      <member refid="class_data_viewer_1_1_fonctions_1a51f85c70be7e649da3eaf7e55a9bdd36" prot="public" virt="non-virtual"><scope>DataViewer::Fonctions</scope><name>afficherDonnees</name></member>
+      <member refid="class_data_viewer_1_1_fonctions_1ace421aadde5264bd32311625aaf92737" prot="public" virt="non-virtual"><scope>DataViewer::Fonctions</scope><name>afficherTableAnnees</name></member>
+      <member refid="class_data_viewer_1_1_fonctions_1a1293cb21de1a326fe9d5252517bc3587" prot="public" virt="non-virtual"><scope>DataViewer::Fonctions</scope><name>afficherTableCategorie</name></member>
+      <member refid="class_data_viewer_1_1_fonctions_1ac6f74468e6943599b7cae06c5a1e3c21" prot="public" virt="non-virtual"><scope>DataViewer::Fonctions</scope><name>afficherTableHeures</name></member>
+      <member refid="class_data_viewer_1_1_fonctions_1a9415f9d12eeccbf8804fcd3834606ba2" prot="public" virt="non-virtual"><scope>DataViewer::Fonctions</scope><name>afficherTableMedia</name></member>
+      <member refid="class_data_viewer_1_1_fonctions_1aca814c09f61503857b47e6fc6d642a77" prot="public" virt="non-virtual"><scope>DataViewer::Fonctions</scope><name>afficherTableType</name></member>
+      <member refid="class_data_viewer_1_1_fonctions_1adc0ddaf6f25c2763364194251f2dcd51" prot="public" virt="non-virtual"><scope>DataViewer::Fonctions</scope><name>ckBoxToInt</name></member>
+      <member refid="class_data_viewer_1_1_fonctions_1a9f4fae2afa69aa7f89999df5473a01e6" prot="public" virt="non-virtual"><scope>DataViewer::Fonctions</scope><name>ckBoxToString</name></member>
+      <member refid="class_data_viewer_1_1_fonctions_1a1f97f2450092d87f5af3f847612b2cfd" prot="public" virt="non-virtual"><scope>DataViewer::Fonctions</scope><name>requeteParametree</name></member>
+      <member refid="class_data_viewer_1_1_fonctions_1a4810d2dbcb5e65515011b6865454231e" prot="public" virt="non-virtual"><scope>DataViewer::Fonctions</scope><name>requeteVue</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

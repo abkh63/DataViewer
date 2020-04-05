@@ -1,0 +1,751 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_data_viewer_1_1_frm___visualizer" kind="class" language="C#" prot="public">
+    <compoundname>DataViewer::Frm_Visualizer</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Form</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_data_viewer_1_1_frm___visualizer_1a81c2fe25e6c69fa60ce88bb0493c127a" prot="private" static="no" mutable="no">
+        <type><ref refid="class_data_viewer_1_1_sql" kindref="compound">Sql</ref></type>
+        <definition>Sql DataViewer.Frm_Visualizer.sql</definition>
+        <argsstring></argsstring>
+        <name>sql</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Visualizer.cs" line="18" column="21" bodyfile="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Visualizer.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_data_viewer_1_1_frm___visualizer_1a5c2a1763863be0c8098078c751759ffe" prot="private" static="no" mutable="no">
+        <type>System.ComponentModel.IContainer</type>
+        <definition>System.ComponentModel.IContainer DataViewer.Frm_Visualizer.components</definition>
+        <argsstring></argsstring>
+        <name>components</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+<para>Required designer variable. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Visualizer.Designer.cs" line="8" column="48" bodyfile="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Visualizer.Designer.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_data_viewer_1_1_frm___visualizer_1ab0511b6dd2f1c9f243ff399eec1fb55c" prot="private" static="no" mutable="no">
+        <type>LiveCharts.WinForms.CartesianChart</type>
+        <definition>LiveCharts.WinForms.CartesianChart DataViewer.Frm_Visualizer.chartMedia</definition>
+        <argsstring></argsstring>
+        <name>chartMedia</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Visualizer.Designer.cs" line="461" column="50" bodyfile="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Visualizer.Designer.cs" bodystart="461" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_data_viewer_1_1_frm___visualizer_1a967d6ef80a9a5faba62e424bbc1d9b3d" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.TabControl</type>
+        <definition>System.Windows.Forms.TabControl DataViewer.Frm_Visualizer.tabControl1</definition>
+        <argsstring></argsstring>
+        <name>tabControl1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Visualizer.Designer.cs" line="462" column="46" bodyfile="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Visualizer.Designer.cs" bodystart="462" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_data_viewer_1_1_frm___visualizer_1a5d9460417677998b6b16c76e76bcee41" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.TabPage</type>
+        <definition>System.Windows.Forms.TabPage DataViewer.Frm_Visualizer.tabMedia</definition>
+        <argsstring></argsstring>
+        <name>tabMedia</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Visualizer.Designer.cs" line="463" column="43" bodyfile="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Visualizer.Designer.cs" bodystart="463" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_data_viewer_1_1_frm___visualizer_1adde29ef2231a2e03026acaa64d45eb6a" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.TabPage</type>
+        <definition>System.Windows.Forms.TabPage DataViewer.Frm_Visualizer.tabAnnee</definition>
+        <argsstring></argsstring>
+        <name>tabAnnee</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Visualizer.Designer.cs" line="464" column="43" bodyfile="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Visualizer.Designer.cs" bodystart="464" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_data_viewer_1_1_frm___visualizer_1af9a13b2342f75db7b9325a4379e1cb10" prot="private" static="no" mutable="no">
+        <type>LiveCharts.WinForms.CartesianChart</type>
+        <definition>LiveCharts.WinForms.CartesianChart DataViewer.Frm_Visualizer.chartAnnees</definition>
+        <argsstring></argsstring>
+        <name>chartAnnees</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Visualizer.Designer.cs" line="465" column="50" bodyfile="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Visualizer.Designer.cs" bodystart="465" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_data_viewer_1_1_frm___visualizer_1a54f49931a32760333cc39a5e27591af0" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.TabPage</type>
+        <definition>System.Windows.Forms.TabPage DataViewer.Frm_Visualizer.tabHeure</definition>
+        <argsstring></argsstring>
+        <name>tabHeure</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Visualizer.Designer.cs" line="466" column="43" bodyfile="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Visualizer.Designer.cs" bodystart="466" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_data_viewer_1_1_frm___visualizer_1a3adf236ed7e492cc725afd4e9c465c2a" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label DataViewer.Frm_Visualizer.label1</definition>
+        <argsstring></argsstring>
+        <name>label1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Visualizer.Designer.cs" line="467" column="41" bodyfile="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Visualizer.Designer.cs" bodystart="467" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_data_viewer_1_1_frm___visualizer_1ac100030206b1a1a9e684c011db8c8a58" prot="private" static="no" mutable="no">
+        <type>LiveCharts.WinForms.CartesianChart</type>
+        <definition>LiveCharts.WinForms.CartesianChart DataViewer.Frm_Visualizer.chartHeures</definition>
+        <argsstring></argsstring>
+        <name>chartHeures</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Visualizer.Designer.cs" line="468" column="50" bodyfile="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Visualizer.Designer.cs" bodystart="468" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_data_viewer_1_1_frm___visualizer_1a9954e822b1faff78b1457147c6e47635" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.TabPage</type>
+        <definition>System.Windows.Forms.TabPage DataViewer.Frm_Visualizer.tabType</definition>
+        <argsstring></argsstring>
+        <name>tabType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Visualizer.Designer.cs" line="469" column="43" bodyfile="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Visualizer.Designer.cs" bodystart="469" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_data_viewer_1_1_frm___visualizer_1a57f6f71350bbe59888afc8ec3ee30c4b" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.TabPage</type>
+        <definition>System.Windows.Forms.TabPage DataViewer.Frm_Visualizer.tabCategorie</definition>
+        <argsstring></argsstring>
+        <name>tabCategorie</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Visualizer.Designer.cs" line="470" column="43" bodyfile="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Visualizer.Designer.cs" bodystart="470" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_data_viewer_1_1_frm___visualizer_1ab3ba2be25a4acf61fa9d2b12040a0e7c" prot="private" static="no" mutable="no">
+        <type>LiveCharts.WinForms.PieChart</type>
+        <definition>LiveCharts.WinForms.PieChart DataViewer.Frm_Visualizer.chartTv</definition>
+        <argsstring></argsstring>
+        <name>chartTv</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Visualizer.Designer.cs" line="471" column="44" bodyfile="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Visualizer.Designer.cs" bodystart="471" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_data_viewer_1_1_frm___visualizer_1aa1f6be866c94ebc5ea88ae2ed635bbf2" prot="private" static="no" mutable="no">
+        <type>LiveCharts.WinForms.PieChart</type>
+        <definition>LiveCharts.WinForms.PieChart DataViewer.Frm_Visualizer.chartRadio</definition>
+        <argsstring></argsstring>
+        <name>chartRadio</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Visualizer.Designer.cs" line="472" column="44" bodyfile="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Visualizer.Designer.cs" bodystart="472" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_data_viewer_1_1_frm___visualizer_1a88f1f29e2c68dfe4a4949d2fb6f41e80" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label DataViewer.Frm_Visualizer.label3</definition>
+        <argsstring></argsstring>
+        <name>label3</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Visualizer.Designer.cs" line="473" column="41" bodyfile="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Visualizer.Designer.cs" bodystart="473" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_data_viewer_1_1_frm___visualizer_1af77f090b0d964e26b114d4de1d549a39" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label DataViewer.Frm_Visualizer.label2</definition>
+        <argsstring></argsstring>
+        <name>label2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Visualizer.Designer.cs" line="474" column="41" bodyfile="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Visualizer.Designer.cs" bodystart="474" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_data_viewer_1_1_frm___visualizer_1a35c4be62cf17d5c9e3aaecae89636eff" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label DataViewer.Frm_Visualizer.label4</definition>
+        <argsstring></argsstring>
+        <name>label4</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Visualizer.Designer.cs" line="475" column="41" bodyfile="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Visualizer.Designer.cs" bodystart="475" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_data_viewer_1_1_frm___visualizer_1a1b094d943c0bee023488ba1c335b42e7" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label DataViewer.Frm_Visualizer.label5</definition>
+        <argsstring></argsstring>
+        <name>label5</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Visualizer.Designer.cs" line="476" column="41" bodyfile="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Visualizer.Designer.cs" bodystart="476" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_data_viewer_1_1_frm___visualizer_1a6c77a81cf671d5f8c084ead1b28aee72" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label DataViewer.Frm_Visualizer.label6</definition>
+        <argsstring></argsstring>
+        <name>label6</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Visualizer.Designer.cs" line="477" column="41" bodyfile="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Visualizer.Designer.cs" bodystart="477" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_data_viewer_1_1_frm___visualizer_1a3a35296d52db2abb24e229777041dfc6" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label DataViewer.Frm_Visualizer.label7</definition>
+        <argsstring></argsstring>
+        <name>label7</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Visualizer.Designer.cs" line="478" column="41" bodyfile="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Visualizer.Designer.cs" bodystart="478" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_data_viewer_1_1_frm___visualizer_1a2bb10408a2986d0dc12029c6d4e209eb" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label DataViewer.Frm_Visualizer.label8</definition>
+        <argsstring></argsstring>
+        <name>label8</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Visualizer.Designer.cs" line="479" column="41" bodyfile="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Visualizer.Designer.cs" bodystart="479" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_data_viewer_1_1_frm___visualizer_1a511ecd61787f64502e5ba061ac46c6cf" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label DataViewer.Frm_Visualizer.label9</definition>
+        <argsstring></argsstring>
+        <name>label9</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Visualizer.Designer.cs" line="480" column="41" bodyfile="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Visualizer.Designer.cs" bodystart="480" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_data_viewer_1_1_frm___visualizer_1a913c52d5691766c5e10a424a4a8ff529" prot="private" static="no" mutable="no">
+        <type>LiveCharts.WinForms.PieChart</type>
+        <definition>LiveCharts.WinForms.PieChart DataViewer.Frm_Visualizer.chartPrivee</definition>
+        <argsstring></argsstring>
+        <name>chartPrivee</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Visualizer.Designer.cs" line="481" column="44" bodyfile="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Visualizer.Designer.cs" bodystart="481" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_data_viewer_1_1_frm___visualizer_1abbeba4df3a2793c23ab3644f134380a4" prot="private" static="no" mutable="no">
+        <type>LiveCharts.WinForms.PieChart</type>
+        <definition>LiveCharts.WinForms.PieChart DataViewer.Frm_Visualizer.chartPublique</definition>
+        <argsstring></argsstring>
+        <name>chartPublique</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Visualizer.Designer.cs" line="482" column="44" bodyfile="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Visualizer.Designer.cs" bodystart="482" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_data_viewer_1_1_frm___visualizer_1a28468748200a5ccb5028f8105fa04859" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label DataViewer.Frm_Visualizer.lblWarning4</definition>
+        <argsstring></argsstring>
+        <name>lblWarning4</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Visualizer.Designer.cs" line="483" column="41" bodyfile="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Visualizer.Designer.cs" bodystart="483" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_data_viewer_1_1_frm___visualizer_1a0da2039d44cd242ff9014b7d7f477177" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label DataViewer.Frm_Visualizer.lblWarning1</definition>
+        <argsstring></argsstring>
+        <name>lblWarning1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Visualizer.Designer.cs" line="484" column="41" bodyfile="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Visualizer.Designer.cs" bodystart="484" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_data_viewer_1_1_frm___visualizer_1a6d1ac111a92ebaefb05c3b9800b55c76" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label DataViewer.Frm_Visualizer.lblWarning3</definition>
+        <argsstring></argsstring>
+        <name>lblWarning3</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Visualizer.Designer.cs" line="485" column="41" bodyfile="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Visualizer.Designer.cs" bodystart="485" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_data_viewer_1_1_frm___visualizer_1ad9d007b65ce6d38e81aeed0a5cb601d9" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label DataViewer.Frm_Visualizer.lblWarning2</definition>
+        <argsstring></argsstring>
+        <name>lblWarning2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Visualizer.Designer.cs" line="486" column="41" bodyfile="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Visualizer.Designer.cs" bodystart="486" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_data_viewer_1_1_frm___visualizer_1a877f6aa803fdb70bfa12aab2683ee1e5" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.TabPage</type>
+        <definition>System.Windows.Forms.TabPage DataViewer.Frm_Visualizer.tabData</definition>
+        <argsstring></argsstring>
+        <name>tabData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Visualizer.Designer.cs" line="487" column="43" bodyfile="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Visualizer.Designer.cs" bodystart="487" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_data_viewer_1_1_frm___visualizer_1a30fc7221d0296422e87ee999131bb070" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.ListView</type>
+        <definition>System.Windows.Forms.ListView DataViewer.Frm_Visualizer.lvData</definition>
+        <argsstring></argsstring>
+        <name>lvData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Visualizer.Designer.cs" line="488" column="44" bodyfile="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Visualizer.Designer.cs" bodystart="488" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_data_viewer_1_1_frm___visualizer_1a25cca9ae47dbb229e646a41e346f36d2" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.ColumnHeader</type>
+        <definition>System.Windows.Forms.ColumnHeader DataViewer.Frm_Visualizer.sexe</definition>
+        <argsstring></argsstring>
+        <name>sexe</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Visualizer.Designer.cs" line="489" column="48" bodyfile="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Visualizer.Designer.cs" bodystart="489" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_data_viewer_1_1_frm___visualizer_1a9db5274a2bd0eca39914458323a4a75b" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.ColumnHeader</type>
+        <definition>System.Windows.Forms.ColumnHeader DataViewer.Frm_Visualizer.media</definition>
+        <argsstring></argsstring>
+        <name>media</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Visualizer.Designer.cs" line="490" column="48" bodyfile="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Visualizer.Designer.cs" bodystart="490" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_data_viewer_1_1_frm___visualizer_1a5e46c0c3b19ab68d39d841f1583e20cb" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.ColumnHeader</type>
+        <definition>System.Windows.Forms.ColumnHeader DataViewer.Frm_Visualizer.type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Visualizer.Designer.cs" line="491" column="48" bodyfile="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Visualizer.Designer.cs" bodystart="491" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_data_viewer_1_1_frm___visualizer_1a14b896d6caa1c76a84e78c9294090507" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.ColumnHeader</type>
+        <definition>System.Windows.Forms.ColumnHeader DataViewer.Frm_Visualizer.categorie</definition>
+        <argsstring></argsstring>
+        <name>categorie</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Visualizer.Designer.cs" line="492" column="48" bodyfile="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Visualizer.Designer.cs" bodystart="492" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_data_viewer_1_1_frm___visualizer_1aece497fe1604cdb422bafee7b8e6ff8c" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.ColumnHeader</type>
+        <definition>System.Windows.Forms.ColumnHeader DataViewer.Frm_Visualizer.annee</definition>
+        <argsstring></argsstring>
+        <name>annee</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Visualizer.Designer.cs" line="493" column="48" bodyfile="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Visualizer.Designer.cs" bodystart="493" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_data_viewer_1_1_frm___visualizer_1a8c4930bd822b033e9364fcf2d7e4d4cd" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.ColumnHeader</type>
+        <definition>System.Windows.Forms.ColumnHeader DataViewer.Frm_Visualizer.heure</definition>
+        <argsstring></argsstring>
+        <name>heure</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Visualizer.Designer.cs" line="494" column="48" bodyfile="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Visualizer.Designer.cs" bodystart="494" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_data_viewer_1_1_frm___visualizer_1ac21ab20ff5a0a15eb691b9b478808896" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.ColumnHeader</type>
+        <definition>System.Windows.Forms.ColumnHeader DataViewer.Frm_Visualizer.taux</definition>
+        <argsstring></argsstring>
+        <name>taux</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Visualizer.Designer.cs" line="495" column="48" bodyfile="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Visualizer.Designer.cs" bodystart="495" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_data_viewer_1_1_frm___visualizer_1a8071d83c72e5940e5c0b2dc96b6f7182" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>DataViewer.Frm_Visualizer.Frm_Visualizer</definition>
+        <argsstring>(Sql sql)</argsstring>
+        <name>Frm_Visualizer</name>
+        <param>
+          <type><ref refid="class_data_viewer_1_1_sql" kindref="compound">Sql</ref></type>
+          <declname>sql</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Visualizer.cs" line="21" column="16" bodyfile="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Visualizer.cs" bodystart="21" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="class_data_viewer_1_1_frm___visualizer_1ac5a7b420ad1ae1180ce92124ab42dce8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DataViewer.Frm_Visualizer.loadStatMedia</definition>
+        <argsstring>()</argsstring>
+        <name>loadStatMedia</name>
+        <briefdescription>
+<para>Construction d&apos;un diagramme en bâton avec les stat Media </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Visualizer.cs" line="37" column="21" bodyfile="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Visualizer.cs" bodystart="37" bodyend="73"/>
+      </memberdef>
+      <memberdef kind="function" id="class_data_viewer_1_1_frm___visualizer_1a53d4f177100a096cec6f70bdf93195e9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DataViewer.Frm_Visualizer.loadStatAnnee</definition>
+        <argsstring>()</argsstring>
+        <name>loadStatAnnee</name>
+        <briefdescription>
+<para>Construction d&apos;une courbe avec les stat Annee </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Visualizer.cs" line="78" column="21" bodyfile="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Visualizer.cs" bodystart="78" bodyend="120"/>
+      </memberdef>
+      <memberdef kind="function" id="class_data_viewer_1_1_frm___visualizer_1a8f155b9d0b89753023a22a1f858e6d0b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DataViewer.Frm_Visualizer.loadStatHeures</definition>
+        <argsstring>()</argsstring>
+        <name>loadStatHeures</name>
+        <briefdescription>
+<para>Construction d&apos;une courbe avec les stat Heure </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Visualizer.cs" line="125" column="21" bodyfile="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Visualizer.cs" bodystart="125" bodyend="167"/>
+      </memberdef>
+      <memberdef kind="function" id="class_data_viewer_1_1_frm___visualizer_1aa4e9e6f29aec56ed535d05cae7ff5424" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DataViewer.Frm_Visualizer.loadStatType</definition>
+        <argsstring>()</argsstring>
+        <name>loadStatType</name>
+        <briefdescription>
+<para>Construction d&apos;un diagramme circulaire avec les stat Type Media </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Visualizer.cs" line="172" column="21" bodyfile="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Visualizer.cs" bodystart="172" bodyend="209"/>
+      </memberdef>
+      <memberdef kind="function" id="class_data_viewer_1_1_frm___visualizer_1a9d659253aa1f10b9632517db04d9050b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DataViewer.Frm_Visualizer.loadStatCategorie</definition>
+        <argsstring>()</argsstring>
+        <name>loadStatCategorie</name>
+        <briefdescription>
+<para>Construction d&apos;un diagramme circulaire avec les stat Categorie Media </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Visualizer.cs" line="214" column="21" bodyfile="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Visualizer.cs" bodystart="214" bodyend="250"/>
+      </memberdef>
+      <memberdef kind="function" id="class_data_viewer_1_1_frm___visualizer_1aefcd08a56980b02a72913832dad2e6e3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DataViewer.Frm_Visualizer.loadData</definition>
+        <argsstring>()</argsstring>
+        <name>loadData</name>
+        <briefdescription>
+<para>Charger la liste d&apos;objets de type <ref refid="class_data_viewer_1_1_data" kindref="compound">Data</ref> séléctionnés par l&apos;utilisateur dans une ListView </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Visualizer.cs" line="255" column="21" bodyfile="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Visualizer.cs" bodystart="255" bodyend="262"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_data_viewer_1_1_frm___visualizer_1a62748fb691cd5b07767e6dcc989578e2" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void DataViewer.Frm_Visualizer.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+<para>Clean up any resources being used. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>disposing</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if managed resources should be disposed; otherwise, false.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Visualizer.Designer.cs" line="14" column="33" bodyfile="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Visualizer.Designer.cs" bodystart="14" bodyend="21"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_data_viewer_1_1_frm___visualizer_1ac69fabc1abd3583f9ede6817e53791ac" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DataViewer.Frm_Visualizer.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <briefdescription>
+<para>Required method for Designer support - do not modify the contents of this method with the code editor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Visualizer.Designer.cs" line="29" column="22" bodyfile="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Visualizer.Designer.cs" bodystart="29" bodyend="458"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Form</label>
+      </node>
+      <node id="1">
+        <label>DataViewer.Frm_Visualizer</label>
+        <link refid="class_data_viewer_1_1_frm___visualizer"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4">
+        <label>DataViewer.Sql</label>
+        <link refid="class_data_viewer_1_1_sql"/>
+      </node>
+      <node id="2">
+        <label>Form</label>
+      </node>
+      <node id="1">
+        <label>DataViewer.Frm_Visualizer</label>
+        <link refid="class_data_viewer_1_1_frm___visualizer"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>chartHeures</edgelabel>
+          <edgelabel>chartMedia</edgelabel>
+          <edgelabel>chartPrivee</edgelabel>
+          <edgelabel>chartPublique</edgelabel>
+          <edgelabel>chartAnnees</edgelabel>
+          <edgelabel>chartRadio</edgelabel>
+          <edgelabel>chartTv</edgelabel>
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>sql</edgelabel>
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>tabHeure</edgelabel>
+          <edgelabel>taux</edgelabel>
+          <edgelabel>sexe</edgelabel>
+          <edgelabel>label1</edgelabel>
+          <edgelabel>tabMedia</edgelabel>
+          <edgelabel>label2</edgelabel>
+          <edgelabel>tabType</edgelabel>
+          <edgelabel>lvData</edgelabel>
+          <edgelabel>label3</edgelabel>
+          <edgelabel>label4</edgelabel>
+          <edgelabel>...</edgelabel>
+        </childnode>
+      </node>
+      <node id="5">
+        <label>System</label>
+      </node>
+      <node id="3">
+        <label>LiveCharts</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Visualizer.cs" line="17" column="1" bodyfile="C:/Users/Sami/Desktop/Abir/Cours/ALQ/DataViewer_Khemiri_Tahri_Du/DataViewer/DataViewer/Frm_Visualizer.cs" bodystart="16" bodyend="265"/>
+    <listofallmembers>
+      <member refid="class_data_viewer_1_1_frm___visualizer_1aece497fe1604cdb422bafee7b8e6ff8c" prot="private" virt="non-virtual"><scope>DataViewer::Frm_Visualizer</scope><name>annee</name></member>
+      <member refid="class_data_viewer_1_1_frm___visualizer_1a14b896d6caa1c76a84e78c9294090507" prot="private" virt="non-virtual"><scope>DataViewer::Frm_Visualizer</scope><name>categorie</name></member>
+      <member refid="class_data_viewer_1_1_frm___visualizer_1af9a13b2342f75db7b9325a4379e1cb10" prot="private" virt="non-virtual"><scope>DataViewer::Frm_Visualizer</scope><name>chartAnnees</name></member>
+      <member refid="class_data_viewer_1_1_frm___visualizer_1ac100030206b1a1a9e684c011db8c8a58" prot="private" virt="non-virtual"><scope>DataViewer::Frm_Visualizer</scope><name>chartHeures</name></member>
+      <member refid="class_data_viewer_1_1_frm___visualizer_1ab0511b6dd2f1c9f243ff399eec1fb55c" prot="private" virt="non-virtual"><scope>DataViewer::Frm_Visualizer</scope><name>chartMedia</name></member>
+      <member refid="class_data_viewer_1_1_frm___visualizer_1a913c52d5691766c5e10a424a4a8ff529" prot="private" virt="non-virtual"><scope>DataViewer::Frm_Visualizer</scope><name>chartPrivee</name></member>
+      <member refid="class_data_viewer_1_1_frm___visualizer_1abbeba4df3a2793c23ab3644f134380a4" prot="private" virt="non-virtual"><scope>DataViewer::Frm_Visualizer</scope><name>chartPublique</name></member>
+      <member refid="class_data_viewer_1_1_frm___visualizer_1aa1f6be866c94ebc5ea88ae2ed635bbf2" prot="private" virt="non-virtual"><scope>DataViewer::Frm_Visualizer</scope><name>chartRadio</name></member>
+      <member refid="class_data_viewer_1_1_frm___visualizer_1ab3ba2be25a4acf61fa9d2b12040a0e7c" prot="private" virt="non-virtual"><scope>DataViewer::Frm_Visualizer</scope><name>chartTv</name></member>
+      <member refid="class_data_viewer_1_1_frm___visualizer_1a5c2a1763863be0c8098078c751759ffe" prot="private" virt="non-virtual"><scope>DataViewer::Frm_Visualizer</scope><name>components</name></member>
+      <member refid="class_data_viewer_1_1_frm___visualizer_1a62748fb691cd5b07767e6dcc989578e2" prot="protected" virt="non-virtual"><scope>DataViewer::Frm_Visualizer</scope><name>Dispose</name></member>
+      <member refid="class_data_viewer_1_1_frm___visualizer_1a8071d83c72e5940e5c0b2dc96b6f7182" prot="public" virt="non-virtual"><scope>DataViewer::Frm_Visualizer</scope><name>Frm_Visualizer</name></member>
+      <member refid="class_data_viewer_1_1_frm___visualizer_1a8c4930bd822b033e9364fcf2d7e4d4cd" prot="private" virt="non-virtual"><scope>DataViewer::Frm_Visualizer</scope><name>heure</name></member>
+      <member refid="class_data_viewer_1_1_frm___visualizer_1ac69fabc1abd3583f9ede6817e53791ac" prot="private" virt="non-virtual"><scope>DataViewer::Frm_Visualizer</scope><name>InitializeComponent</name></member>
+      <member refid="class_data_viewer_1_1_frm___visualizer_1a3adf236ed7e492cc725afd4e9c465c2a" prot="private" virt="non-virtual"><scope>DataViewer::Frm_Visualizer</scope><name>label1</name></member>
+      <member refid="class_data_viewer_1_1_frm___visualizer_1af77f090b0d964e26b114d4de1d549a39" prot="private" virt="non-virtual"><scope>DataViewer::Frm_Visualizer</scope><name>label2</name></member>
+      <member refid="class_data_viewer_1_1_frm___visualizer_1a88f1f29e2c68dfe4a4949d2fb6f41e80" prot="private" virt="non-virtual"><scope>DataViewer::Frm_Visualizer</scope><name>label3</name></member>
+      <member refid="class_data_viewer_1_1_frm___visualizer_1a35c4be62cf17d5c9e3aaecae89636eff" prot="private" virt="non-virtual"><scope>DataViewer::Frm_Visualizer</scope><name>label4</name></member>
+      <member refid="class_data_viewer_1_1_frm___visualizer_1a1b094d943c0bee023488ba1c335b42e7" prot="private" virt="non-virtual"><scope>DataViewer::Frm_Visualizer</scope><name>label5</name></member>
+      <member refid="class_data_viewer_1_1_frm___visualizer_1a6c77a81cf671d5f8c084ead1b28aee72" prot="private" virt="non-virtual"><scope>DataViewer::Frm_Visualizer</scope><name>label6</name></member>
+      <member refid="class_data_viewer_1_1_frm___visualizer_1a3a35296d52db2abb24e229777041dfc6" prot="private" virt="non-virtual"><scope>DataViewer::Frm_Visualizer</scope><name>label7</name></member>
+      <member refid="class_data_viewer_1_1_frm___visualizer_1a2bb10408a2986d0dc12029c6d4e209eb" prot="private" virt="non-virtual"><scope>DataViewer::Frm_Visualizer</scope><name>label8</name></member>
+      <member refid="class_data_viewer_1_1_frm___visualizer_1a511ecd61787f64502e5ba061ac46c6cf" prot="private" virt="non-virtual"><scope>DataViewer::Frm_Visualizer</scope><name>label9</name></member>
+      <member refid="class_data_viewer_1_1_frm___visualizer_1a0da2039d44cd242ff9014b7d7f477177" prot="private" virt="non-virtual"><scope>DataViewer::Frm_Visualizer</scope><name>lblWarning1</name></member>
+      <member refid="class_data_viewer_1_1_frm___visualizer_1ad9d007b65ce6d38e81aeed0a5cb601d9" prot="private" virt="non-virtual"><scope>DataViewer::Frm_Visualizer</scope><name>lblWarning2</name></member>
+      <member refid="class_data_viewer_1_1_frm___visualizer_1a6d1ac111a92ebaefb05c3b9800b55c76" prot="private" virt="non-virtual"><scope>DataViewer::Frm_Visualizer</scope><name>lblWarning3</name></member>
+      <member refid="class_data_viewer_1_1_frm___visualizer_1a28468748200a5ccb5028f8105fa04859" prot="private" virt="non-virtual"><scope>DataViewer::Frm_Visualizer</scope><name>lblWarning4</name></member>
+      <member refid="class_data_viewer_1_1_frm___visualizer_1aefcd08a56980b02a72913832dad2e6e3" prot="public" virt="non-virtual"><scope>DataViewer::Frm_Visualizer</scope><name>loadData</name></member>
+      <member refid="class_data_viewer_1_1_frm___visualizer_1a53d4f177100a096cec6f70bdf93195e9" prot="public" virt="non-virtual"><scope>DataViewer::Frm_Visualizer</scope><name>loadStatAnnee</name></member>
+      <member refid="class_data_viewer_1_1_frm___visualizer_1a9d659253aa1f10b9632517db04d9050b" prot="public" virt="non-virtual"><scope>DataViewer::Frm_Visualizer</scope><name>loadStatCategorie</name></member>
+      <member refid="class_data_viewer_1_1_frm___visualizer_1a8f155b9d0b89753023a22a1f858e6d0b" prot="public" virt="non-virtual"><scope>DataViewer::Frm_Visualizer</scope><name>loadStatHeures</name></member>
+      <member refid="class_data_viewer_1_1_frm___visualizer_1ac5a7b420ad1ae1180ce92124ab42dce8" prot="public" virt="non-virtual"><scope>DataViewer::Frm_Visualizer</scope><name>loadStatMedia</name></member>
+      <member refid="class_data_viewer_1_1_frm___visualizer_1aa4e9e6f29aec56ed535d05cae7ff5424" prot="public" virt="non-virtual"><scope>DataViewer::Frm_Visualizer</scope><name>loadStatType</name></member>
+      <member refid="class_data_viewer_1_1_frm___visualizer_1a30fc7221d0296422e87ee999131bb070" prot="private" virt="non-virtual"><scope>DataViewer::Frm_Visualizer</scope><name>lvData</name></member>
+      <member refid="class_data_viewer_1_1_frm___visualizer_1a9db5274a2bd0eca39914458323a4a75b" prot="private" virt="non-virtual"><scope>DataViewer::Frm_Visualizer</scope><name>media</name></member>
+      <member refid="class_data_viewer_1_1_frm___visualizer_1a25cca9ae47dbb229e646a41e346f36d2" prot="private" virt="non-virtual"><scope>DataViewer::Frm_Visualizer</scope><name>sexe</name></member>
+      <member refid="class_data_viewer_1_1_frm___visualizer_1a81c2fe25e6c69fa60ce88bb0493c127a" prot="private" virt="non-virtual"><scope>DataViewer::Frm_Visualizer</scope><name>sql</name></member>
+      <member refid="class_data_viewer_1_1_frm___visualizer_1adde29ef2231a2e03026acaa64d45eb6a" prot="private" virt="non-virtual"><scope>DataViewer::Frm_Visualizer</scope><name>tabAnnee</name></member>
+      <member refid="class_data_viewer_1_1_frm___visualizer_1a57f6f71350bbe59888afc8ec3ee30c4b" prot="private" virt="non-virtual"><scope>DataViewer::Frm_Visualizer</scope><name>tabCategorie</name></member>
+      <member refid="class_data_viewer_1_1_frm___visualizer_1a967d6ef80a9a5faba62e424bbc1d9b3d" prot="private" virt="non-virtual"><scope>DataViewer::Frm_Visualizer</scope><name>tabControl1</name></member>
+      <member refid="class_data_viewer_1_1_frm___visualizer_1a877f6aa803fdb70bfa12aab2683ee1e5" prot="private" virt="non-virtual"><scope>DataViewer::Frm_Visualizer</scope><name>tabData</name></member>
+      <member refid="class_data_viewer_1_1_frm___visualizer_1a54f49931a32760333cc39a5e27591af0" prot="private" virt="non-virtual"><scope>DataViewer::Frm_Visualizer</scope><name>tabHeure</name></member>
+      <member refid="class_data_viewer_1_1_frm___visualizer_1a5d9460417677998b6b16c76e76bcee41" prot="private" virt="non-virtual"><scope>DataViewer::Frm_Visualizer</scope><name>tabMedia</name></member>
+      <member refid="class_data_viewer_1_1_frm___visualizer_1a9954e822b1faff78b1457147c6e47635" prot="private" virt="non-virtual"><scope>DataViewer::Frm_Visualizer</scope><name>tabType</name></member>
+      <member refid="class_data_viewer_1_1_frm___visualizer_1ac21ab20ff5a0a15eb691b9b478808896" prot="private" virt="non-virtual"><scope>DataViewer::Frm_Visualizer</scope><name>taux</name></member>
+      <member refid="class_data_viewer_1_1_frm___visualizer_1a5e46c0c3b19ab68d39d841f1583e20cb" prot="private" virt="non-virtual"><scope>DataViewer::Frm_Visualizer</scope><name>type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
